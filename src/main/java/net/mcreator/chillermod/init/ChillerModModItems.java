@@ -40,6 +40,7 @@ public class ChillerModModItems {
 	public static final RegistryObject<Item> WATER_BONG_WIT_GRASS = block(ChillerModModBlocks.WATER_BONG_WIT_GRASS);
 	public static final RegistryObject<Item> GRINDER_SPIKE = REGISTRY.register("grinder_spike", () -> new GrinderSpikeItem());
 	public static final RegistryObject<Item> CHILLER_COW_SPAWN_EGG = REGISTRY.register("chiller_cow_spawn_egg", () -> new ForgeSpawnEggItem(ChillerModModEntities.CHILLER_COW, -16711936, -16751053, new Item.Properties()));
+	public static final RegistryObject<Item> CHILLER_CHICKEN_SPAWN_EGG = REGISTRY.register("chiller_chicken_spawn_egg", () -> new ForgeSpawnEggItem(ChillerModModEntities.CHILLER_CHICKEN, -16738048, -256, new Item.Properties()));
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
