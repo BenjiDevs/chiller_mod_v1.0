@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "chiller_mod:weed_wood_log"
+    }
+  ],
+  "result": {
+    "item": "chiller_mod:weed_wood_plank",
+    "count": 4
+  }
+}

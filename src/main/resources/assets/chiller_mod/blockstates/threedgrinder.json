@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "chiller_mod:block/threedgrinder"
+    }
+  }
+}

@@ -7,7 +7,7 @@
       "value": "Blocks.GRASS"
     },
     "undergroundBlock": {
-      "value": "Blocks.IRON_BLOCK"
+      "value": "Blocks.STONE#0"
     },
     "underwaterBlock": {
       "value": ""
@@ -71,21 +71,21 @@
       "min": -1.0,
       "max": 1.0
     },
-    "treesPerChunk": 1,
+    "treesPerChunk": 2,
     "vanillaTreeType": "Default",
     "treeType": 1,
     "minHeight": 7,
     "treeStem": {
-      "value": "Blocks.CHERRY_LOG"
+      "value": "CUSTOM:WeedWoodLog"
     },
     "treeBranch": {
-      "value": "CUSTOM:WeedBale"
+      "value": "CUSTOM:WeedWoodLeaves"
     },
     "treeVines": {
       "value": "Blocks.CAVE_VINES_PLANT"
     },
     "treeFruits": {
-      "value": "CUSTOM:WeedBale"
+      "value": "Blocks.SWEET_BERRY_BUSH"
     },
     "defaultFeatures": [],
     "spawnStronghold": true,

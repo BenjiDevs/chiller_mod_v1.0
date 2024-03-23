@@ -18,9 +18,11 @@ import net.mcreator.chillermod.item.StonerSwordItem;
 import net.mcreator.chillermod.item.MarijuanleafItem;
 import net.mcreator.chillermod.item.KeefItem;
 import net.mcreator.chillermod.item.JakemanVacationDiskItem;
+import net.mcreator.chillermod.item.GunItem;
 import net.mcreator.chillermod.item.GrinderSpikeItem;
 import net.mcreator.chillermod.item.GrindedWeedItem;
 import net.mcreator.chillermod.item.BlackGlassStickItem;
+import net.mcreator.chillermod.item.AkFireSerpentItem;
 import net.mcreator.chillermod.ChillerModMod;
 
 public class ChillerModModItems {
@@ -40,9 +42,15 @@ public class ChillerModModItems {
 	public static final RegistryObject<Item> WATER_BONG_WIT_GRASS = block(ChillerModModBlocks.WATER_BONG_WIT_GRASS);
 	public static final RegistryObject<Item> GRINDER_SPIKE = REGISTRY.register("grinder_spike", () -> new GrinderSpikeItem());
 	public static final RegistryObject<Item> CHILLER_COW_SPAWN_EGG = REGISTRY.register("chiller_cow_spawn_egg", () -> new ForgeSpawnEggItem(ChillerModModEntities.CHILLER_COW, -16711936, -16751053, new Item.Properties()));
+	public static final RegistryObject<Item> COUCH = block(ChillerModModBlocks.COUCH);
 	public static final RegistryObject<Item> CHILLER_CHICKEN_SPAWN_EGG = REGISTRY.register("chiller_chicken_spawn_egg", () -> new ForgeSpawnEggItem(ChillerModModEntities.CHILLER_CHICKEN, -16738048, -256, new Item.Properties()));
 	public static final RegistryObject<Item> WEED_WOOD_LOG = block(ChillerModModBlocks.WEED_WOOD_LOG);
 	public static final RegistryObject<Item> WEED_WOOD_LEAVES = block(ChillerModModBlocks.WEED_WOOD_LEAVES);
+	public static final RegistryObject<Item> THREEDGRINDER = block(ChillerModModBlocks.THREEDGRINDER);
+	public static final RegistryObject<Item> WEED_WOOD_PLANK = block(ChillerModModBlocks.WEED_WOOD_PLANK);
+	public static final RegistryObject<Item> WEED_WOOD_PLANKS = block(ChillerModModBlocks.WEED_WOOD_PLANKS);
+	public static final RegistryObject<Item> GUN = REGISTRY.register("gun", () -> new GunItem());
+	public static final RegistryObject<Item> AK_FIRE_SERPENT = REGISTRY.register("ak_fire_serpent", () -> new AkFireSerpentItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

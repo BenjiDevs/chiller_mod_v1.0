@@ -65,8 +65,8 @@ public class ChillerModModBiomes {
 					SurfaceRules.RuleSource currentRuleSource = noiseGeneratorSettings.surfaceRule();
 					if (currentRuleSource instanceof SurfaceRules.SequenceRuleSource sequenceRuleSource) {
 						List<SurfaceRules.RuleSource> surfaceRules = new ArrayList<>(sequenceRuleSource.sequence());
-						surfaceRules.add(1, preliminarySurfaceRule(ResourceKey.create(Registries.BIOME, new ResourceLocation("chiller_mod", "chiller_biome")), Blocks.GRASS_BLOCK.defaultBlockState(), Blocks.IRON_BLOCK.defaultBlockState(),
-								Blocks.IRON_BLOCK.defaultBlockState()));
+						surfaceRules.add(1, preliminarySurfaceRule(ResourceKey.create(Registries.BIOME, new ResourceLocation("chiller_mod", "chiller_biome")), Blocks.GRASS_BLOCK.defaultBlockState(), Blocks.STONE.defaultBlockState(),
+								Blocks.STONE.defaultBlockState()));
 						NoiseGeneratorSettings moddedNoiseGeneratorSettings = new NoiseGeneratorSettings(noiseGeneratorSettings.noiseSettings(), noiseGeneratorSettings.defaultBlock(), noiseGeneratorSettings.defaultFluid(),
 								noiseGeneratorSettings.noiseRouter(), SurfaceRules.sequence(surfaceRules.toArray(SurfaceRules.RuleSource[]::new)), noiseGeneratorSettings.spawnTarget(), noiseGeneratorSettings.seaLevel(),
 								noiseGeneratorSettings.disableMobGeneration(), noiseGeneratorSettings.aquifersEnabled(), noiseGeneratorSettings.oreVeinsEnabled(), noiseGeneratorSettings.useLegacyRandomSource());

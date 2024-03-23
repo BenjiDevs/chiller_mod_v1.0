@@ -1,0 +1,9 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "bottom": "chiller_mod:block/oak_planks_29_je6_be3",
+    "top": "chiller_mod:block/oak_planks_29_je6_be3",
+    "side": "chiller_mod:block/planks"
+  },
+  "render_type": "translucent"
+}

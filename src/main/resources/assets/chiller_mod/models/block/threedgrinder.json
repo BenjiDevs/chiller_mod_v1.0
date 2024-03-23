@@ -1,0 +1,10 @@
+{
+  "parent": "chiller_mod:custom/grinder",
+  "textures": {
+    "all": "chiller_mod:block/texture",
+    "particle": "chiller_mod:block/texture",
+    "0": "chiller_mod:block/texture",
+    "missing": "chiller_mod:block/texture"
+  },
+  "render_type": "translucent"
+}

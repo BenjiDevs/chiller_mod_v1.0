@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "chiller_mod:block/weed_wood_planks"
+    },
+    "type=top": {
+      "model": "chiller_mod:block/weed_wood_planks_top"
+    },
+    "type=double": {
+      "model": "chiller_mod:block/weed_wood_planks_full"
+    }
+  }
+}

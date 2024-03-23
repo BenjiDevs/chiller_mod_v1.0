@@ -538,10 +538,10 @@
       "registry_name": "couch",
       "metadata": {
         "files": [
-          "src/main/resources/assets/chiller_mod/blockstates/couch.json",
-          "src/main/resources/assets/chiller_mod/models/block/couch.json",
+          "src/main/resources/assets/chiller_mod/models/item/couch.json",
           "src/main/java/net/mcreator/chillermod/block/CouchBlock.java",
-          "src/main/resources/assets/chiller_mod/models/item/couch.json"
+          "src/main/resources/assets/chiller_mod/blockstates/couch.json",
+          "src/main/resources/assets/chiller_mod/models/block/couch.json"
         ]
       }
     },
@@ -554,10 +554,10 @@
       "registry_name": "chiller_chicken",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/chillermod/client/renderer/ChillerChickenRenderer.java",
           "src/main/java/net/mcreator/chillermod/entity/ChillerChickenEntity.java",
-          "src/main/resources/data/chiller_mod/forge/biome_modifier/chiller_chicken_biome_modifier.json",
           "src/main/resources/assets/chiller_mod/models/item/chiller_chicken_spawn_egg.json",
-          "src/main/java/net/mcreator/chillermod/client/renderer/ChillerChickenRenderer.java"
+          "src/main/resources/data/chiller_mod/forge/biome_modifier/chiller_chicken_biome_modifier.json"
         ]
       }
     },
@@ -592,6 +592,156 @@
           "src/main/resources/assets/chiller_mod/models/item/weed_wood_leaves.json"
         ]
       }
+    },
+    {
+      "name": "Threedgrinder",
+      "type": "block",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "threedgrinder",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chillermod/block/ThreedgrinderBlock.java",
+          "src/main/resources/assets/chiller_mod/blockstates/threedgrinder.json",
+          "src/main/resources/assets/chiller_mod/models/item/threedgrinder.json",
+          "src/main/resources/assets/chiller_mod/models/block/threedgrinder.json"
+        ]
+      }
+    },
+    {
+      "name": "WeedWoodPlank",
+      "type": "block",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weed_wood_plank",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chiller_mod/models/block/weed_wood_plank.json",
+          "src/main/resources/assets/chiller_mod/blockstates/weed_wood_plank.json",
+          "src/main/resources/assets/chiller_mod/models/item/weed_wood_plank.json",
+          "src/main/java/net/mcreator/chillermod/block/WeedWoodPlankBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "WeedWoodPlanks",
+      "type": "block",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weed_wood_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chiller_mod/models/block/weed_wood_planks_full.json",
+          "src/main/resources/assets/chiller_mod/models/block/weed_wood_planks.json",
+          "src/main/resources/assets/chiller_mod/models/item/weed_wood_planks.json",
+          "src/main/resources/assets/chiller_mod/blockstates/weed_wood_planks.json",
+          "src/main/java/net/mcreator/chillermod/block/WeedWoodPlanksBlock.java",
+          "src/main/resources/assets/chiller_mod/models/block/weed_wood_planks_top.json"
+        ]
+      }
+    },
+    {
+      "name": "WeedWoodPlankRecipe",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weed_wood_plank_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chiller_mod/recipes/weed_wood_plank_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "WeedWoodSlabsRecipe",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weed_wood_slabs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chiller_mod/recipes/weed_wood_slabs_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Bullet",
+      "type": "projectile",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bullet",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chillermod/entity/BulletEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "Gun",
+      "type": "item",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gun",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chiller_mod/models/item/gun_0.json",
+          "src/main/java/net/mcreator/chillermod/item/GunItem.java",
+          "src/main/resources/assets/chiller_mod/models/item/gun.json"
+        ]
+      }
+    },
+    {
+      "name": "AkFireSerpent",
+      "type": "item",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ak_fire_serpent",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chillermod/item/AkFireSerpentItem.java",
+          "src/main/resources/assets/chiller_mod/models/item/ak_fire_serpent.json",
+          "src/main/resources/assets/chiller_mod/models/item/ak_fire_serpent_0.json"
+        ]
+      }
+    },
+    {
+      "name": "AkFireSerpentRangedItemUsed",
+      "type": "procedure",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ak_fire_serpent_ranged_item_used",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chillermod/procedures/AkFireSerpentRangedItemUsedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -603,17 +753,26 @@
       ],
       "category": "neutral",
       "subtitle": ""
+    },
+    {
+      "name": "ak_shot_sound",
+      "files": [
+        "csgo_ak-47_firing_sound_effect_single_shot_tuberipper.cc"
+      ],
+      "category": "neutral",
+      "subtitle": ""
     }
   ],
   "language_map": {
     "en_us": {
       "item.chiller_mod.keef": "Keef",
-      "item.chiller_mod.vapetest": "Cherry Bomb Vape",
       "gui.chiller_mod.grinder_gui.label_grinder": "Grinder",
+      "item.chiller_mod.vapetest": "Red Apple Flavored Vape",
       "item.chiller_mod.grinder_spike": "Grinder Spike",
       "biome.chiller_mod.chiller_biome": "Chiller Biome",
       "advancements.buzzed.title": "The New Cool Kid",
       "entity.chiller_mod.chiller_cow": "Chiller Cow",
+      "item.chiller_mod.ak_fire_serpent": "§c§lAk-47 | Fire Serpent",
       "subtitles.jakeman_vacation": "",
       "block.chiller_mod.weed_wood_leaves": "Weed Wood Leaves",
       "item.chiller_mod.jakeman_vacation_disk.desc": "Jakeman Vacation (Feat. Saif)",
@@ -621,16 +780,23 @@
       "item.minecraft.splash_potion.effect.joint": "Bong Bomb",
       "block.chiller_mod.water_bong": "Water Bong",
       "item_group.chiller_mod.weed": "Weed",
+      "item.chiller_mod.chiller_chicken_spawn_egg": "Chiller Chicken Spawn Egg",
       "item.chiller_mod.black_glass_stick": "Black Glass Stick",
       "block.chiller_mod.weed_wood_log": "Weed Wood Log",
       "item.minecraft.potion.effect.joint": "Bong",
       "gui.chiller_mod.grinder_gui.tooltip_add_marijuana_leaves_to_grind": "Add Marijuana Leaves to grind",
       "item.chiller_mod.jakeman_vacation_disk": "Jakeman Vacation Disk",
+      "block.chiller_mod.weed_wood_plank": "Weed Wood Plank",
+      "item.chiller_mod.gun": "Gun",
       "painting.chiller_mod.weed_painting_1.title": "Weed Painting 1",
+      "block.chiller_mod.weed_wood_planks": "Weed Wood Planks",
+      "block.chiller_mod.couch": "Couch",
       "item.minecraft.tipped_arrow.effect.joint": "High Arrow",
       "painting.chiller_mod.weed_painting_1.author": "jakeman",
       "block.chiller_mod.grinder_block": "Grinder Block",
       "advancements.first_high.descr": "Get your first high by consuming the zaa",
+      "block.chiller_mod.threedgrinder": "Threedgrinder",
+      "entity.chiller_mod.chiller_chicken": "Chiller Chicken",
       "advancements.first_high.title": "First High",
       "item.chiller_mod.stoner_sword": "Stoner Sword",
       "item.minecraft.lingering_potion.effect.joint": "Lingering Bong",
@@ -641,6 +807,7 @@
       "entity.chiller_mod.snoop": "Snoop",
       "block.chiller_mod.weed_bale": "Weed Bale",
       "item.chiller_mod.grinded_weed": "Grinded Weed",
+      "subtitles.ak_shot_sound": "",
       "item.chiller_mod.marijuanleaf": "Marijuana Leaf"
     }
   },
