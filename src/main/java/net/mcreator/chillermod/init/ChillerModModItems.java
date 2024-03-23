@@ -35,6 +35,7 @@ public class ChillerModModItems {
 	public static final RegistryObject<Item> GRINDED_WEED = REGISTRY.register("grinded_weed", () -> new GrindedWeedItem());
 	public static final RegistryObject<Item> KEEF = REGISTRY.register("keef", () -> new KeefItem());
 	public static final RegistryObject<Item> WATER_BONG = block(ChillerModModBlocks.WATER_BONG);
+	public static final RegistryObject<Item> WATER_BONG_WIT_GRASS = block(ChillerModModBlocks.WATER_BONG_WIT_GRASS);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

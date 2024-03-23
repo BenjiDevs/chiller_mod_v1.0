@@ -388,6 +388,22 @@
           "src/main/resources/assets/chiller_mod/models/item/water_bong.json"
         ]
       }
+    },
+    {
+      "name": "WaterBongWitGrass",
+      "type": "block",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "water_bong_wit_grass",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chiller_mod/models/item/water_bong_wit_grass.json",
+          "src/main/resources/assets/chiller_mod/blockstates/water_bong_wit_grass.json",
+          "src/main/java/net/mcreator/chillermod/block/WaterBongWitGrassBlock.java",
+          "src/main/resources/assets/chiller_mod/models/block/water_bong_wit_grass.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -404,8 +420,8 @@
   "language_map": {
     "en_us": {
       "item.chiller_mod.keef": "Keef",
-      "item.chiller_mod.vapetest": "Cherry Bomb Vape",
       "gui.chiller_mod.grinder_gui.label_grinder": "Grinder",
+      "item.chiller_mod.vapetest": "Cherry Bomb Vape",
       "biome.chiller_mod.chiller_biome": "Chiller Biome",
       "advancements.buzzed.title": "The New Cool Kid",
       "subtitles.jakeman_vacation": "",
@@ -424,6 +440,7 @@
       "advancements.first_high.title": "First High",
       "item.chiller_mod.stoner_sword": "Stoner Sword",
       "item.minecraft.lingering_potion.effect.joint": "Lingering Bong",
+      "block.chiller_mod.water_bong_wit_grass": "Water Bong Wit Grass",
       "block.chiller_mod.bongtest": "Bongtest",
       "advancements.buzzed.descr": "Get a buzz for the first time",
       "item.chiller_mod.snoop_spawn_egg": "Snoop Spawn Egg",
