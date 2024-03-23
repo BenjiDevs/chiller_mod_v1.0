@@ -261,6 +261,89 @@
           "src/main/java/net/mcreator/chillermod/entity/SnoopEntity.java"
         ]
       }
+    },
+    {
+      "name": "WeedPainting1",
+      "type": "painting",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weed_painting_1",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "GrinderGUI",
+      "type": "gui",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grinder_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chillermod/world/inventory/GrinderGUIMenu.java",
+          "src/main/java/net/mcreator/chillermod/client/gui/GrinderGUIScreen.java"
+        ]
+      }
+    },
+    {
+      "name": "GrinderProcedure",
+      "type": "procedure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grinder_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chillermod/procedures/GrinderProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GroundWeedProcedure",
+      "type": "procedure",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ground_weed_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chillermod/procedures/GroundWeedProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -276,22 +359,26 @@
   ],
   "language_map": {
     "en_us": {
-      "item.minecraft.tipped_arrow.effect.joint": "High Arrow",
       "item.chiller_mod.vapetest": "Cherry Bomb Vape",
+      "gui.chiller_mod.grinder_gui.label_grinder": "Grinder",
       "biome.chiller_mod.chiller_biome": "Chiller Biome",
-      "advancements.first_high.descr": "Get your first high by consuming the zaa",
       "advancements.buzzed.title": "The New Cool Kid",
       "subtitles.jakeman_vacation": "",
       "item.chiller_mod.jakeman_vacation_disk.desc": "Jakeman Vacation (Feat. Saif)",
       "item.minecraft.splash_potion.effect.joint": "Bong Bomb",
+      "item_group.chiller_mod.weed": "Weed",
+      "item.chiller_mod.black_glass_stick": "Black Glass Stick",
+      "item.minecraft.potion.effect.joint": "Bong",
+      "gui.chiller_mod.grinder_gui.tooltip_add_marijuana_leaves_to_grind": "Add Marijuana Leaves to grind",
+      "item.chiller_mod.jakeman_vacation_disk": "Jakeman Vacation Disk",
+      "painting.chiller_mod.weed_painting_1.title": "Weed Painting 1",
+      "item.minecraft.tipped_arrow.effect.joint": "High Arrow",
+      "painting.chiller_mod.weed_painting_1.author": "jakeman",
+      "advancements.first_high.descr": "Get your first high by consuming the zaa",
       "advancements.first_high.title": "First High",
       "item.chiller_mod.stoner_sword": "Stoner Sword",
       "item.minecraft.lingering_potion.effect.joint": "Lingering Bong",
       "block.chiller_mod.bongtest": "Bongtest",
-      "item_group.chiller_mod.weed": "Weed",
-      "item.chiller_mod.black_glass_stick": "Black Glass Stick",
-      "item.minecraft.potion.effect.joint": "Bong",
-      "item.chiller_mod.jakeman_vacation_disk": "Jakeman Vacation Disk",
       "advancements.buzzed.descr": "Get a buzz for the first time",
       "item.chiller_mod.snoop_spawn_egg": "Snoop Spawn Egg",
       "entity.chiller_mod.snoop": "Snoop",
