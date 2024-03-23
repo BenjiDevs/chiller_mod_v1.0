@@ -263,6 +263,20 @@
       }
     },
     {
+      "name": "GrinderGUI",
+      "type": "gui",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grinder_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chillermod/world/inventory/GrinderGUIMenu.java",
+          "src/main/java/net/mcreator/chillermod/client/gui/GrinderGUIScreen.java"
+        ]
+      }
+    },
+    {
       "name": "WeedPainting1",
       "type": "painting",
       "sortid": 18,
@@ -274,16 +288,25 @@
       }
     },
     {
-      "name": "GrinderGUI",
-      "type": "gui",
-      "sortid": 19,
+      "name": "GroundWeedProcedure",
+      "type": "procedure",
+      "sortid": 21,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "grinder_gui",
+      "registry_name": "ground_weed_procedure",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/chillermod/world/inventory/GrinderGUIMenu.java",
-          "src/main/java/net/mcreator/chillermod/client/gui/GrinderGUIScreen.java"
+          "src/main/java/net/mcreator/chillermod/procedures/GroundWeedProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
         ]
       }
     },
@@ -323,25 +346,30 @@
       }
     },
     {
-      "name": "GroundWeedProcedure",
-      "type": "procedure",
-      "sortid": 21,
+      "name": "GrindedWeed",
+      "type": "item",
+      "sortid": 18,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "ground_weed_procedure",
+      "registry_name": "grinded_weed",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/chillermod/procedures/GroundWeedProcedureProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "itemstack",
-            "type": "itemstack"
-          }
+          "src/main/java/net/mcreator/chillermod/item/GrindedWeedItem.java",
+          "src/main/resources/assets/chiller_mod/models/item/grinded_weed.json"
+        ]
+      }
+    },
+    {
+      "name": "Keef",
+      "type": "item",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "keef",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chillermod/item/KeefItem.java",
+          "src/main/resources/assets/chiller_mod/models/item/keef.json"
         ]
       }
     }
@@ -360,7 +388,6 @@
   "language_map": {
     "en_us": {
       "item.chiller_mod.vapetest": "Cherry Bomb Vape",
-      "gui.chiller_mod.grinder_gui.label_grinder": "Grinder",
       "biome.chiller_mod.chiller_biome": "Chiller Biome",
       "advancements.buzzed.title": "The New Cool Kid",
       "subtitles.jakeman_vacation": "",
@@ -369,11 +396,8 @@
       "item_group.chiller_mod.weed": "Weed",
       "item.chiller_mod.black_glass_stick": "Black Glass Stick",
       "item.minecraft.potion.effect.joint": "Bong",
-      "gui.chiller_mod.grinder_gui.tooltip_add_marijuana_leaves_to_grind": "Add Marijuana Leaves to grind",
       "item.chiller_mod.jakeman_vacation_disk": "Jakeman Vacation Disk",
-      "painting.chiller_mod.weed_painting_1.title": "Weed Painting 1",
       "item.minecraft.tipped_arrow.effect.joint": "High Arrow",
-      "painting.chiller_mod.weed_painting_1.author": "jakeman",
       "advancements.first_high.descr": "Get your first high by consuming the zaa",
       "advancements.first_high.title": "First High",
       "item.chiller_mod.stoner_sword": "Stoner Sword",
