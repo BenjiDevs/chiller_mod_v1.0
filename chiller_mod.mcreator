@@ -530,6 +530,22 @@
       }
     },
     {
+      "name": "Couch",
+      "type": "block",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "couch",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chiller_mod/blockstates/couch.json",
+          "src/main/resources/assets/chiller_mod/models/block/couch.json",
+          "src/main/java/net/mcreator/chillermod/block/CouchBlock.java",
+          "src/main/resources/assets/chiller_mod/models/item/couch.json"
+        ]
+      }
+    },
+    {
       "name": "ChillerChicken",
       "type": "livingentity",
       "sortid": 30,
@@ -538,10 +554,10 @@
       "registry_name": "chiller_chicken",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/chillermod/client/renderer/ChillerChickenRenderer.java",
           "src/main/java/net/mcreator/chillermod/entity/ChillerChickenEntity.java",
+          "src/main/resources/data/chiller_mod/forge/biome_modifier/chiller_chicken_biome_modifier.json",
           "src/main/resources/assets/chiller_mod/models/item/chiller_chicken_spawn_egg.json",
-          "src/main/resources/data/chiller_mod/forge/biome_modifier/chiller_chicken_biome_modifier.json"
+          "src/main/java/net/mcreator/chillermod/client/renderer/ChillerChickenRenderer.java"
         ]
       }
     },
@@ -605,7 +621,6 @@
       "item.minecraft.splash_potion.effect.joint": "Bong Bomb",
       "block.chiller_mod.water_bong": "Water Bong",
       "item_group.chiller_mod.weed": "Weed",
-      "item.chiller_mod.chiller_chicken_spawn_egg": "Chiller Chicken Spawn Egg",
       "item.chiller_mod.black_glass_stick": "Black Glass Stick",
       "block.chiller_mod.weed_wood_log": "Weed Wood Log",
       "item.minecraft.potion.effect.joint": "Bong",
@@ -616,7 +631,6 @@
       "painting.chiller_mod.weed_painting_1.author": "jakeman",
       "block.chiller_mod.grinder_block": "Grinder Block",
       "advancements.first_high.descr": "Get your first high by consuming the zaa",
-      "entity.chiller_mod.chiller_chicken": "Chiller Chicken",
       "advancements.first_high.title": "First High",
       "item.chiller_mod.stoner_sword": "Stoner Sword",
       "item.minecraft.lingering_potion.effect.joint": "Lingering Bong",
