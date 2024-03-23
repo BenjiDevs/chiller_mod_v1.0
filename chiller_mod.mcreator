@@ -77,10 +77,10 @@
       "registry_name": "weed_bale",
       "metadata": {
         "files": [
+          "src/main/resources/assets/chiller_mod/blockstates/weed_bale.json",
           "src/main/java/net/mcreator/chillermod/block/WeedBaleBlock.java",
-          "src/main/resources/assets/chiller_mod/models/block/weed_bale.json",
           "src/main/resources/assets/chiller_mod/models/item/weed_bale.json",
-          "src/main/resources/assets/chiller_mod/blockstates/weed_bale.json"
+          "src/main/resources/assets/chiller_mod/models/block/weed_bale.json"
         ]
       }
     },
