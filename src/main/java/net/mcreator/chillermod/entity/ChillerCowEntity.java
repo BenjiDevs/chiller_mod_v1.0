@@ -20,6 +20,7 @@ import net.minecraft.world.entity.ai.goal.FloatGoal;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
 import net.minecraft.world.entity.SpawnPlacements;
+import net.minecraft.world.entity.PathfinderMob;
 import net.minecraft.world.entity.MobType;
 import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.LivingEntity;
@@ -37,14 +38,14 @@ import net.minecraft.core.BlockPos;
 
 import net.mcreator.chillermod.init.ChillerModModEntities;
 
-public class ChillerCowEntity extends Monster {
+public class ChillerCowEntity extends PathfinderMob {
 	public ChillerCowEntity(PlayMessages.SpawnEntity packet, Level world) {
 		this(ChillerModModEntities.CHILLER_COW.get(), world);
 	}
 
 	public ChillerCowEntity(EntityType<ChillerCowEntity> type, Level world) {
 		super(type, world);
-		setMaxUpStep(0.6f);
+		setMaxUpStep(1f);
 		xpReward = 0;
 		setNoAi(false);
 	}
