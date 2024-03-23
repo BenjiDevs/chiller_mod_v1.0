@@ -39,6 +39,11 @@ public class ChillerModModTabs {
 				tabData.accept(ChillerModModBlocks.COUCH.get().asItem());
 				tabData.accept(ChillerModModBlocks.WEED_WOOD_LOG.get().asItem());
 				tabData.accept(ChillerModModBlocks.WEED_WOOD_LEAVES.get().asItem());
+				tabData.accept(ChillerModModBlocks.THREEDGRINDER.get().asItem());
+				tabData.accept(ChillerModModBlocks.WEED_WOOD_PLANK.get().asItem());
+				tabData.accept(ChillerModModBlocks.WEED_WOOD_PLANKS.get().asItem());
+				tabData.accept(ChillerModModItems.GUN.get());
+				tabData.accept(ChillerModModItems.AK_FIRE_SERPENT.get());
 			}).withSearchBar().build());
 
 	@SubscribeEvent

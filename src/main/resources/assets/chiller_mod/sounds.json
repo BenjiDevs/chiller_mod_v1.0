@@ -6,5 +6,13 @@
         "stream": false
       }
     ]
+  },
+  "ak_shot_sound": {
+    "sounds": [
+      {
+        "name": "chiller_mod:csgo_ak-47_firing_sound_effect_single_shot_tuberipper.cc",
+        "stream": false
+      }
+    ]
   }
 }

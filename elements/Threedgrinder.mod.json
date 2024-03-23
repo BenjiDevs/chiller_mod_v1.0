@@ -2,7 +2,7 @@
   "_fv": 57,
   "_type": "block",
   "definition": {
-    "texture": "texture2",
+    "texture": "texture",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -33,7 +33,7 @@
         "subtract": false
       }
     ],
-    "name": "Grinder Block",
+    "name": "Threedgrinder",
     "specialInformation": {
       "fixedValue": []
     },
@@ -81,7 +81,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "CHAIN"
+      "value": "GROUND"
     },
     "breakSound": {
       "value": ""
@@ -103,8 +103,8 @@
     "breakHarvestLevel": 1,
     "isBonemealable": false,
     "hasInventory": false,
-    "guiBoundTo": "GrinderGUI",
-    "openGUIOnRightClick": true,
+    "guiBoundTo": "<NONE>",
+    "openGUIOnRightClick": false,
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "inventoryDropWhenDestroyed": true,
@@ -119,9 +119,6 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onRightClicked": {
-      "name": "GrinderProcedure"
-    },
     "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [

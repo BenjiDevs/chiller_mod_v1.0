@@ -16,4 +16,5 @@ import net.mcreator.chillermod.ChillerModMod;
 public class ChillerModModSounds {
 	public static final DeferredRegister<SoundEvent> REGISTRY = DeferredRegister.create(ForgeRegistries.SOUND_EVENTS, ChillerModMod.MODID);
 	public static final RegistryObject<SoundEvent> JAKEMAN_VACATION = REGISTRY.register("jakeman_vacation", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("chiller_mod", "jakeman_vacation")));
+	public static final RegistryObject<SoundEvent> AK_SHOT_SOUND = REGISTRY.register("ak_shot_sound", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("chiller_mod", "ak_shot_sound")));
 }

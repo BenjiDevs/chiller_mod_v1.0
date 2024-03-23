@@ -10,11 +10,14 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.level.block.Block;
 
+import net.mcreator.chillermod.block.WeedWoodPlanksBlock;
+import net.mcreator.chillermod.block.WeedWoodPlankBlock;
 import net.mcreator.chillermod.block.WeedWoodLogBlock;
 import net.mcreator.chillermod.block.WeedWoodLeavesBlock;
 import net.mcreator.chillermod.block.WeedBaleBlock;
 import net.mcreator.chillermod.block.WaterBongWitGrassBlock;
 import net.mcreator.chillermod.block.WaterBongBlock;
+import net.mcreator.chillermod.block.ThreedgrinderBlock;
 import net.mcreator.chillermod.block.GrinderBlockBlock;
 import net.mcreator.chillermod.block.CouchBlock;
 import net.mcreator.chillermod.block.BongtestBlock;
@@ -30,4 +33,7 @@ public class ChillerModModBlocks {
 	public static final RegistryObject<Block> COUCH = REGISTRY.register("couch", () -> new CouchBlock());
 	public static final RegistryObject<Block> WEED_WOOD_LOG = REGISTRY.register("weed_wood_log", () -> new WeedWoodLogBlock());
 	public static final RegistryObject<Block> WEED_WOOD_LEAVES = REGISTRY.register("weed_wood_leaves", () -> new WeedWoodLeavesBlock());
+	public static final RegistryObject<Block> THREEDGRINDER = REGISTRY.register("threedgrinder", () -> new ThreedgrinderBlock());
+	public static final RegistryObject<Block> WEED_WOOD_PLANK = REGISTRY.register("weed_wood_plank", () -> new WeedWoodPlankBlock());
+	public static final RegistryObject<Block> WEED_WOOD_PLANKS = REGISTRY.register("weed_wood_planks", () -> new WeedWoodPlanksBlock());
 }

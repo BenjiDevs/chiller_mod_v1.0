@@ -19,6 +19,7 @@ import net.minecraft.world.entity.Entity;
 import net.mcreator.chillermod.entity.SnoopEntity;
 import net.mcreator.chillermod.entity.ChillerCowEntity;
 import net.mcreator.chillermod.entity.ChillerChickenEntity;
+import net.mcreator.chillermod.entity.BulletEntity;
 import net.mcreator.chillermod.ChillerModMod;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
@@ -34,6 +35,8 @@ public class ChillerModModEntities {
 			EntityType.Builder.<ChillerChickenEntity>of(ChillerChickenEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(ChillerChickenEntity::new)
 
 					.sized(0.4f, 0.7f));
+	public static final RegistryObject<EntityType<BulletEntity>> BULLET = register("projectile_bullet",
+			EntityType.Builder.<BulletEntity>of(BulletEntity::new, MobCategory.MISC).setCustomClientFactory(BulletEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));

@@ -85,7 +85,7 @@
     "disableCollisions": false,
     "ridable": true,
     "canControlForward": true,
-    "canControlStrafe": false,
+    "canControlStrafe": true,
     "immuneToFire": false,
     "immuneToArrows": false,
     "immuneToFallDamage": true,

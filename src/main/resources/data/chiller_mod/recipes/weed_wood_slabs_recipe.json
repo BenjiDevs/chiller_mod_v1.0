@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "chiller_mod:deleted_mod_element"
+    },
+    {
+      "item": "chiller_mod:deleted_mod_element"
+    },
+    {
+      "item": "chiller_mod:deleted_mod_element"
+    }
+  ],
+  "result": {
+    "item": "chiller_mod:deleted_mod_element",
+    "count": 6
+  }
+}

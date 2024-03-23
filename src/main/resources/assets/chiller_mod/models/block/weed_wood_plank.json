@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "chiller_mod:block/oak_planks_29_je6_be3",
+    "particle": "chiller_mod:block/oak_planks_29_je6_be3"
+  },
+  "render_type": "solid"
+}

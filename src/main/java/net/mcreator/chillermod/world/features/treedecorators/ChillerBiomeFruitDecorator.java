@@ -9,11 +9,10 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraft.world.level.levelgen.feature.treedecorators.TreeDecoratorType;
 import net.minecraft.world.level.levelgen.feature.treedecorators.TreeDecorator;
 import net.minecraft.world.level.levelgen.feature.treedecorators.CocoaDecorator;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.util.RandomSource;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
-
-import net.mcreator.chillermod.init.ChillerModModBlocks;
 
 import java.util.List;
 
@@ -52,7 +51,7 @@ public class ChillerBiomeFruitDecorator extends CocoaDecorator {
 						Direction direction1 = direction.getOpposite();
 						BlockPos blockpos = p_226026_.offset(direction1.getStepX(), 0, direction1.getStepZ());
 						if (context.isAir(blockpos)) {
-							context.setBlock(blockpos, ChillerModModBlocks.WEED_BALE.get().defaultBlockState());
+							context.setBlock(blockpos, Blocks.SWEET_BERRY_BUSH.defaultBlockState());
 						}
 					}
 				}

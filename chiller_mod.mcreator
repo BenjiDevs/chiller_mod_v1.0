@@ -592,6 +592,156 @@
           "src/main/resources/assets/chiller_mod/models/item/weed_wood_leaves.json"
         ]
       }
+    },
+    {
+      "name": "Bullet",
+      "type": "projectile",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bullet",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chillermod/entity/BulletEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "Gun",
+      "type": "item",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gun",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chiller_mod/models/item/gun_0.json",
+          "src/main/java/net/mcreator/chillermod/item/GunItem.java",
+          "src/main/resources/assets/chiller_mod/models/item/gun.json"
+        ]
+      }
+    },
+    {
+      "name": "WeedWoodSlabsRecipe",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weed_wood_slabs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chiller_mod/recipes/weed_wood_slabs_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "AkFireSerpentRangedItemUsed",
+      "type": "procedure",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ak_fire_serpent_ranged_item_used",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chillermod/procedures/AkFireSerpentRangedItemUsedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WeedWoodPlank",
+      "type": "block",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weed_wood_plank",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chillermod/block/WeedWoodPlankBlock.java",
+          "src/main/resources/assets/chiller_mod/blockstates/weed_wood_plank.json",
+          "src/main/resources/assets/chiller_mod/models/item/weed_wood_plank.json",
+          "src/main/resources/assets/chiller_mod/models/block/weed_wood_plank.json"
+        ]
+      }
+    },
+    {
+      "name": "WeedWoodPlanks",
+      "type": "block",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weed_wood_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chiller_mod/models/block/weed_wood_planks.json",
+          "src/main/resources/assets/chiller_mod/models/item/weed_wood_planks.json",
+          "src/main/java/net/mcreator/chillermod/block/WeedWoodPlanksBlock.java",
+          "src/main/resources/assets/chiller_mod/models/block/weed_wood_planks_top.json",
+          "src/main/resources/assets/chiller_mod/models/block/weed_wood_planks_full.json",
+          "src/main/resources/assets/chiller_mod/blockstates/weed_wood_planks.json"
+        ]
+      }
+    },
+    {
+      "name": "WeedWoodPlankRecipe",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weed_wood_plank_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chiller_mod/recipes/weed_wood_plank_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "AkFireSerpent",
+      "type": "item",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ak_fire_serpent",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chiller_mod/models/item/ak_fire_serpent.json",
+          "src/main/java/net/mcreator/chillermod/item/AkFireSerpentItem.java",
+          "src/main/resources/assets/chiller_mod/models/item/ak_fire_serpent_0.json"
+        ]
+      }
+    },
+    {
+      "name": "Threedgrinder",
+      "type": "block",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "threedgrinder",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chiller_mod/models/block/threedgrinder.json",
+          "src/main/resources/assets/chiller_mod/models/item/threedgrinder.json",
+          "src/main/java/net/mcreator/chillermod/block/ThreedgrinderBlock.java",
+          "src/main/resources/assets/chiller_mod/blockstates/threedgrinder.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -600,6 +750,14 @@
       "name": "jakeman_vacation",
       "files": [
         "jakeman"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "ak_shot_sound",
+      "files": [
+        "csgo_ak-47_firing_sound_effect_single_shot_tuberipper.cc"
       ],
       "category": "neutral",
       "subtitle": ""

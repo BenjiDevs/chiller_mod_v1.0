@@ -3,13 +3,13 @@
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
-    "recipeRetstackSize": 16,
+    "recipeRetstackSize": 6,
     "group": "",
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
     "cookingTime": 200,
     "craftingBookCategory": "MISC",
-    "recipeShapeless": false,
+    "recipeShapeless": true,
     "recipeSlots": [
       {
         "value": ""
@@ -24,25 +24,25 @@
         "value": ""
       },
       {
-        "value": "Items.IRON_INGOT"
+        "value": ""
       },
       {
         "value": ""
       },
       {
-        "value": "Items.IRON_INGOT"
+        "value": "CUSTOM:WeedWoodPlank"
       },
       {
-        "value": "Items.IRON_INGOT"
+        "value": "CUSTOM:WeedWoodPlank"
       },
       {
-        "value": ""
+        "value": "CUSTOM:WeedWoodPlank"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:GrinderSpike"
+      "value": "CUSTOM:WeedWoodPlanks"
     },
-    "name": "grinder_spike_recipe",
+    "name": "weed_wood_slabs_recipe",
     "namespace": "mod"
   }
 }

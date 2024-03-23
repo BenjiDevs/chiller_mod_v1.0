@@ -1,0 +1,19 @@
+{
+  "_fv": 57,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "CUSTOM:GrinderSpike"
+    },
+    "showParticles": true,
+    "actionSound": {
+      "value": "entity.arrow.shoot"
+    },
+    "igniteFire": false,
+    "power": 3.0,
+    "damage": 8.0,
+    "knockback": 1,
+    "entityModel": "Default",
+    "customModelTexture": ""
+  }
+}
