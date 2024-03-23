@@ -404,6 +404,113 @@
           "src/main/resources/assets/chiller_mod/models/block/water_bong_wit_grass.json"
         ]
       }
+    },
+    {
+      "name": "AppleVapeRecipe",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "apple_vape_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chiller_mod/recipes/apple_vape_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "GrinderBlock",
+      "type": "block",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grinder_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chiller_mod/models/item/grinder_block.json",
+          "src/main/resources/assets/chiller_mod/models/block/grinder_block.json",
+          "src/main/java/net/mcreator/chillermod/block/GrinderBlockBlock.java",
+          "src/main/resources/assets/chiller_mod/blockstates/grinder_block.json"
+        ]
+      }
+    },
+    {
+      "name": "GrinderSpike",
+      "type": "item",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grinder_spike",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chiller_mod/models/item/grinder_spike.json",
+          "src/main/java/net/mcreator/chillermod/item/GrinderSpikeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "GrinderGUIWhileThisGUIIsOpenTick",
+      "type": "procedure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grinder_gui_while_this_gui_is_open_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chillermod/procedures/GrinderGUIWhileThisGUIIsOpenTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ItemTakenFromSlotProcedure",
+      "type": "procedure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "item_taken_from_slot_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chillermod/procedures/ItemTakenFromSlotProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GrinderRecipe",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grinder_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chiller_mod/recipes/grinder_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "GrinderSpikeRecipe",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grinder_spike_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chiller_mod/recipes/grinder_spike_recipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],

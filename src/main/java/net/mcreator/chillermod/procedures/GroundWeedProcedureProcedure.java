@@ -1,6 +1,5 @@
 package net.mcreator.chillermod.procedures;
 
-import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.inventory.Slot;
 import net.minecraft.world.entity.player.Player;
@@ -28,14 +27,14 @@ public class GroundWeedProcedureProcedure {
 			}
 		}.getAmount(0) >= 1 && itemstack.is(ItemTags.create(new ResourceLocation("chiller_mod:marijuanleaf")))) {
 			if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-				ItemStack _setstack = new ItemStack(Blocks.STONE_STAIRS);
-				_setstack.setCount(1);
+				ItemStack _setstack = new ItemStack(ChillerModModItems.GRINDED_WEED.get());
+				_setstack.setCount(6);
 				((Slot) _slots.get(1)).set(_setstack);
 				_player.containerMenu.broadcastChanges();
 			}
 			if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-				ItemStack _setstack = new ItemStack(ChillerModModItems.SNOOP_SPAWN_EGG.get());
-				_setstack.setCount(1);
+				ItemStack _setstack = new ItemStack(ChillerModModItems.KEEF.get());
+				_setstack.setCount(2);
 				((Slot) _slots.get(2)).set(_setstack);
 				_player.containerMenu.broadcastChanges();
 			}

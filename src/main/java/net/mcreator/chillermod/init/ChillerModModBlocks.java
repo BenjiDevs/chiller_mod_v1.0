@@ -13,6 +13,7 @@ import net.minecraft.world.level.block.Block;
 import net.mcreator.chillermod.block.WeedBaleBlock;
 import net.mcreator.chillermod.block.WaterBongWitGrassBlock;
 import net.mcreator.chillermod.block.WaterBongBlock;
+import net.mcreator.chillermod.block.GrinderBlockBlock;
 import net.mcreator.chillermod.block.BongtestBlock;
 import net.mcreator.chillermod.ChillerModMod;
 
@@ -22,4 +23,5 @@ public class ChillerModModBlocks {
 	public static final RegistryObject<Block> BONGTEST = REGISTRY.register("bongtest", () -> new BongtestBlock());
 	public static final RegistryObject<Block> WATER_BONG = REGISTRY.register("water_bong", () -> new WaterBongBlock());
 	public static final RegistryObject<Block> WATER_BONG_WIT_GRASS = REGISTRY.register("water_bong_wit_grass", () -> new WaterBongWitGrassBlock());
+	public static final RegistryObject<Block> GRINDER_BLOCK = REGISTRY.register("grinder_block", () -> new GrinderBlockBlock());
 }

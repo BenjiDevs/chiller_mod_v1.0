@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bbb",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:iron_ingot"
+    },
+    "b": {
+      "item": "chiller_mod:grinder_spike"
+    }
+  },
+  "result": {
+    "item": "chiller_mod:grinder_block",
+    "count": 1
+  }
+}

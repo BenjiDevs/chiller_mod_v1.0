@@ -18,6 +18,7 @@ import net.mcreator.chillermod.item.StonerSwordItem;
 import net.mcreator.chillermod.item.MarijuanleafItem;
 import net.mcreator.chillermod.item.KeefItem;
 import net.mcreator.chillermod.item.JakemanVacationDiskItem;
+import net.mcreator.chillermod.item.GrinderSpikeItem;
 import net.mcreator.chillermod.item.GrindedWeedItem;
 import net.mcreator.chillermod.item.BlackGlassStickItem;
 import net.mcreator.chillermod.ChillerModMod;
@@ -36,6 +37,8 @@ public class ChillerModModItems {
 	public static final RegistryObject<Item> KEEF = REGISTRY.register("keef", () -> new KeefItem());
 	public static final RegistryObject<Item> WATER_BONG = block(ChillerModModBlocks.WATER_BONG);
 	public static final RegistryObject<Item> WATER_BONG_WIT_GRASS = block(ChillerModModBlocks.WATER_BONG_WIT_GRASS);
+	public static final RegistryObject<Item> GRINDER_BLOCK = block(ChillerModModBlocks.GRINDER_BLOCK);
+	public static final RegistryObject<Item> GRINDER_SPIKE = REGISTRY.register("grinder_spike", () -> new GrinderSpikeItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

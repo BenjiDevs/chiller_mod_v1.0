@@ -4,6 +4,9 @@ package net.mcreator.chillermod.world.inventory;
 import net.minecraftforge.items.SlotItemHandler;
 import net.minecraftforge.items.ItemStackHandler;
 import net.minecraftforge.items.IItemHandler;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.event.TickEvent;
 import net.minecraftforge.common.capabilities.ForgeCapabilities;
 
 import net.minecraft.world.level.block.entity.BlockEntity;
@@ -19,12 +22,16 @@ import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.BlockPos;
 
+import net.mcreator.chillermod.procedures.GrinderGUIWhileThisGUIIsOpenTickProcedure;
+import net.mcreator.chillermod.network.GrinderGUISlotMessage;
 import net.mcreator.chillermod.init.ChillerModModMenus;
+import net.mcreator.chillermod.ChillerModMod;
 
 import java.util.function.Supplier;
 import java.util.Map;
 import java.util.HashMap;
 
+@Mod.EventBusSubscriber
 public class GrinderGUIMenu extends AbstractContainerMenu implements Supplier<Map<Integer, Slot>> {
 	public final static HashMap<String, Object> guistate = new HashMap<>();
 	public final Level world;
@@ -84,12 +91,24 @@ public class GrinderGUIMenu extends AbstractContainerMenu implements Supplier<Ma
 			private final int slot = 1;
 
 			@Override
+			public void onTake(Player entity, ItemStack stack) {
+				super.onTake(entity, stack);
+				slotChanged(1, 1, 0);
+			}
+
+			@Override
 			public boolean mayPlace(ItemStack stack) {
 				return false;
 			}
 		}));
 		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 118, 44) {
 			private final int slot = 2;
+
+			@Override
+			public void onTake(Player entity, ItemStack stack) {
+				super.onTake(entity, stack);
+				slotChanged(2, 1, 0);
+			}
 
 			@Override
 			public boolean mayPlace(ItemStack stack) {
@@ -252,7 +271,26 @@ public class GrinderGUIMenu extends AbstractContainerMenu implements Supplier<Ma
 		}
 	}
 
+	private void slotChanged(int slotid, int ctype, int meta) {
+		if (this.world != null && this.world.isClientSide()) {
+			ChillerModMod.PACKET_HANDLER.sendToServer(new GrinderGUISlotMessage(slotid, x, y, z, ctype, meta));
+			GrinderGUISlotMessage.handleSlotAction(entity, slotid, ctype, meta, x, y, z);
+		}
+	}
+
 	public Map<Integer, Slot> get() {
 		return customSlots;
+	}
+
+	@SubscribeEvent
+	public static void onPlayerTick(TickEvent.PlayerTickEvent event) {
+		Player entity = event.player;
+		if (event.phase == TickEvent.Phase.END && entity.containerMenu instanceof GrinderGUIMenu) {
+			Level world = entity.level();
+			double x = entity.getX();
+			double y = entity.getY();
+			double z = entity.getZ();
+			GrinderGUIWhileThisGUIIsOpenTickProcedure.execute(entity);
+		}
 	}
 }
