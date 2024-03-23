@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "chiller_mod:weed_bale"
+    }
+  },
+  "result": {
+    "item": "chiller_mod:marijuanleaf",
+    "count": 9
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "jakeman_vacation": {
+    "sounds": [
+      {
+        "name": "chiller_mod:jakeman",
+        "stream": false
+      }
+    ]
+  }
+}

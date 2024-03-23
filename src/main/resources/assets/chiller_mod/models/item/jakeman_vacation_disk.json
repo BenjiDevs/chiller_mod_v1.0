@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "chiller_mod:item/jakeman_disk"
+  }
+}

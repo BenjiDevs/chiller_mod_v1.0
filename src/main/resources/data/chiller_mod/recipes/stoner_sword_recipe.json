@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "a",
+    "a",
+    "b"
+  ],
+  "key": {
+    "a": {
+      "item": "chiller_mod:marijuanleaf"
+    },
+    "b": {
+      "item": "chiller_mod:black_glass_stick"
+    }
+  },
+  "result": {
+    "item": "chiller_mod:stoner_sword",
+    "count": 1
+  }
+}

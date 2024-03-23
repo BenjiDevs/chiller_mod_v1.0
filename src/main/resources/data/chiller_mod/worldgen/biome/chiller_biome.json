@@ -1,0 +1,40 @@
+{
+  "has_precipitation": true,
+  "temperature": 0.5,
+  "downfall": 0.2,
+  "effects": {
+    "foliage_color": -3355444,
+    "grass_color": -13369549,
+    "sky_color": -10092442,
+    "fog_color": -10092442,
+    "water_color": -10092442,
+    "water_fog_color": 329011
+  },
+  "spawners": {
+    "monster": [],
+    "creature": [],
+    "ambient": [],
+    "axolotls": [],
+    "underground_water_creature": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "carvers": {},
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "chiller_mod:chiller_biome_tree"
+    ],
+    []
+  ]
+}

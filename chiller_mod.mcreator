@@ -1,0 +1,178 @@
+{
+  "mod_elements": [
+    {
+      "name": "Marijuanleaf",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marijuanleaf",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chiller_mod/models/item/marijuanleaf.json",
+          "src/main/java/net/mcreator/chillermod/item/MarijuanleafItem.java"
+        ]
+      }
+    },
+    {
+      "name": "StonerSword",
+      "type": "tool",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stoner_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chillermod/item/StonerSwordItem.java",
+          "src/main/resources/assets/chiller_mod/models/item/stoner_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "BlackGlassStick",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_glass_stick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chillermod/item/BlackGlassStickItem.java",
+          "src/main/resources/assets/chiller_mod/models/item/black_glass_stick.json"
+        ]
+      }
+    },
+    {
+      "name": "StonerSwordRecipe",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stoner_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chiller_mod/recipes/stoner_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BlackGlassStickRecipe",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_glass_stick_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chiller_mod/recipes/black_glass_stick_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "WeedBale",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weed_bale",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chillermod/block/WeedBaleBlock.java",
+          "src/main/resources/assets/chiller_mod/models/block/weed_bale.json",
+          "src/main/resources/assets/chiller_mod/models/item/weed_bale.json",
+          "src/main/resources/assets/chiller_mod/blockstates/weed_bale.json"
+        ]
+      }
+    },
+    {
+      "name": "MarijuanaLeafRecipe",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marijuana_leaf_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chiller_mod/recipes/marijuana_leaf_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ChillerBiome",
+      "type": "biome",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chiller_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chillermod/world/features/treedecorators/ChillerBiomeTrunkDecorator.java",
+          "src/main/resources/data/chiller_mod/worldgen/placed_feature/chiller_biome_tree.json",
+          "src/main/resources/data/chiller_mod/worldgen/biome/chiller_biome.json",
+          "src/main/resources/data/chiller_mod/worldgen/configured_feature/chiller_biome_tree.json",
+          "src/main/java/net/mcreator/chillermod/world/features/treedecorators/ChillerBiomeLeaveDecorator.java",
+          "src/main/java/net/mcreator/chillermod/world/features/treedecorators/ChillerBiomeFruitDecorator.java"
+        ]
+      }
+    },
+    {
+      "name": "JakemanVacationDisk",
+      "type": "musicdisc",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jakeman_vacation_disk",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chillermod/item/JakemanVacationDiskItem.java",
+          "src/main/resources/assets/chiller_mod/models/item/jakeman_vacation_disk.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "jakeman_vacation",
+      "files": [
+        "jakeman"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "item.chiller_mod.black_glass_stick": "Black Glass Stick",
+      "biome.chiller_mod.chiller_biome": "Chiller Biome",
+      "subtitles.jakeman_vacation": "",
+      "item.chiller_mod.jakeman_vacation_disk": "Jakeman Vacation Disk",
+      "block.chiller_mod.weed_bale": "Weed Bale",
+      "item.chiller_mod.jakeman_vacation_disk.desc": "Jakeman Vacation (Feat. Saif)",
+      "item.chiller_mod.marijuanleaf": "Marijuanleaf",
+      "item.chiller_mod.stoner_sword": "Stoner Sword"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "chiller_mod",
+    "modName": "chiller_mod",
+    "version": "1.0.0",
+    "author": "jaked, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "net.mcreator.chillermod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300452316
+}

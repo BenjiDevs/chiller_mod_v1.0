@@ -1,0 +1,24 @@
+{
+  "_fv": 57,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Jakeman Vacation Disk",
+    "rarity": "COMMON",
+    "texture": "jakeman_disk",
+    "description": "Jakeman Vacation (Feat. Saif)",
+    "creativeTab": {
+      "value": "No creative tab entry"
+    },
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "music": {
+      "value": "CUSTOM:jakeman_vacation"
+    },
+    "lengthInTicks": 2500,
+    "analogOutput": 0
+  }
+}
