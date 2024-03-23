@@ -43,6 +43,7 @@ public class ChillerModModTabs {
 
 		if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
 			tabData.accept(ChillerModModItems.SNOOP_SPAWN_EGG.get());
+			tabData.accept(ChillerModModItems.CHILLER_COW_SPAWN_EGG.get());
 		}
 	}
 }

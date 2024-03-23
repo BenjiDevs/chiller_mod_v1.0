@@ -512,6 +512,22 @@
           "src/main/resources/assets/chiller_mod/blockstates/water_bong.json"
         ]
       }
+    },
+    {
+      "name": "ChillerCow",
+      "type": "livingentity",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chiller_cow",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chiller_mod/models/item/chiller_cow_spawn_egg.json",
+          "src/main/resources/data/chiller_mod/forge/biome_modifier/chiller_cow_biome_modifier.json",
+          "src/main/java/net/mcreator/chillermod/entity/ChillerCowEntity.java",
+          "src/main/java/net/mcreator/chillermod/client/renderer/ChillerCowRenderer.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -528,13 +544,15 @@
   "language_map": {
     "en_us": {
       "item.chiller_mod.keef": "Keef",
-      "item.chiller_mod.vapetest": "Cherry Bomb Vape",
       "gui.chiller_mod.grinder_gui.label_grinder": "Grinder",
+      "item.chiller_mod.vapetest": "Red Apple Flavored Vape",
       "item.chiller_mod.grinder_spike": "Grinder Spike",
       "biome.chiller_mod.chiller_biome": "Chiller Biome",
       "advancements.buzzed.title": "The New Cool Kid",
+      "entity.chiller_mod.chiller_cow": "Chiller Cow",
       "subtitles.jakeman_vacation": "",
       "item.chiller_mod.jakeman_vacation_disk.desc": "Jakeman Vacation (Feat. Saif)",
+      "item.chiller_mod.chiller_cow_spawn_egg": "Chiller Cow Spawn Egg",
       "item.minecraft.splash_potion.effect.joint": "Bong Bomb",
       "block.chiller_mod.water_bong": "Water Bong",
       "item_group.chiller_mod.weed": "Weed",

@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "chiller_mod:chiller_biome",
+  "spawners": {
+    "type": "chiller_mod:chiller_cow",
+    "weight": 20,
+    "minCount": 4,
+    "maxCount": 4
+  }
+}
