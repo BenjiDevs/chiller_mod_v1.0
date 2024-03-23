@@ -19,7 +19,7 @@ public class VapetestRightclickedProcedure {
 		if (entity == null)
 			return;
 		if (world instanceof ServerLevel _level)
-			_level.sendParticles(ParticleTypes.LARGE_SMOKE, x, y, z, 5, 0, 0, 0, 1);
+			_level.sendParticles(ParticleTypes.LARGE_SMOKE, x, y, z, 5, 0, 2, 0, 0.2);
 		{
 			ItemStack _ist = itemstack;
 			if (_ist.hurt(1, RandomSource.create(), null)) {
