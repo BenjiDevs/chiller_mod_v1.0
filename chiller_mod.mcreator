@@ -275,6 +275,20 @@
           "src/main/java/net/mcreator/chillermod/item/GrindedWeedItem.java"
         ]
       }
+    },
+    {
+      "name": "Keef",
+      "type": "item",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "keef",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chillermod/item/KeefItem.java",
+          "src/main/resources/assets/chiller_mod/models/item/keef.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -290,6 +304,7 @@
   ],
   "language_map": {
     "en_us": {
+      "item.chiller_mod.keef": "Keef",
       "item.minecraft.tipped_arrow.effect.joint": "High Arrow",
       "item.chiller_mod.vapetest": "Cherry Bomb Vape",
       "biome.chiller_mod.chiller_biome": "Chiller Biome",

@@ -16,6 +16,7 @@ import net.minecraft.world.item.BlockItem;
 import net.mcreator.chillermod.item.VapetestItem;
 import net.mcreator.chillermod.item.StonerSwordItem;
 import net.mcreator.chillermod.item.MarijuanleafItem;
+import net.mcreator.chillermod.item.KeefItem;
 import net.mcreator.chillermod.item.JakemanVacationDiskItem;
 import net.mcreator.chillermod.item.GrindedWeedItem;
 import net.mcreator.chillermod.item.BlackGlassStickItem;
@@ -32,6 +33,7 @@ public class ChillerModModItems {
 	public static final RegistryObject<Item> VAPETEST = REGISTRY.register("vapetest", () -> new VapetestItem());
 	public static final RegistryObject<Item> SNOOP_SPAWN_EGG = REGISTRY.register("snoop_spawn_egg", () -> new ForgeSpawnEggItem(ChillerModModEntities.SNOOP, -11193088, -15220992, new Item.Properties()));
 	public static final RegistryObject<Item> GRINDED_WEED = REGISTRY.register("grinded_weed", () -> new GrindedWeedItem());
+	public static final RegistryObject<Item> KEEF = REGISTRY.register("keef", () -> new KeefItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

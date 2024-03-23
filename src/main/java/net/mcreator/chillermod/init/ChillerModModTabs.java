@@ -31,6 +31,7 @@ public class ChillerModModTabs {
 				tabData.accept(ChillerModModBlocks.BONGTEST.get().asItem());
 				tabData.accept(ChillerModModItems.VAPETEST.get());
 				tabData.accept(ChillerModModItems.GRINDED_WEED.get());
+				tabData.accept(ChillerModModItems.KEEF.get());
 			}).withSearchBar().build());
 
 	@SubscribeEvent
