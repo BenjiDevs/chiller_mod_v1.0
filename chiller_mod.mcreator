@@ -266,7 +266,7 @@
       "name": "GrinderGUI",
       "type": "gui",
       "sortid": 19,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "grinder_gui",
       "metadata": {
@@ -292,7 +292,7 @@
       "name": "GroundWeedProcedure",
       "type": "procedure",
       "sortid": 21,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "ground_weed_procedure",
       "metadata": {
@@ -391,7 +391,7 @@
       "name": "GrinderBlock",
       "type": "block",
       "sortid": 23,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "grinder_block",
       "metadata": {
@@ -407,7 +407,7 @@
       "name": "GrinderSpike",
       "type": "item",
       "sortid": 26,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "grinder_spike",
       "metadata": {
@@ -421,7 +421,7 @@
       "name": "GrinderGUIWhileThisGUIIsOpenTick",
       "type": "procedure",
       "sortid": 22,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "grinder_gui_while_this_gui_is_open_tick",
       "metadata": {
@@ -501,7 +501,7 @@
       "name": "WaterBong",
       "type": "block",
       "sortid": 22,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "water_bong",
       "metadata": {
@@ -536,6 +536,7 @@
       "subtitles.jakeman_vacation": "",
       "item.chiller_mod.jakeman_vacation_disk.desc": "Jakeman Vacation (Feat. Saif)",
       "item.minecraft.splash_potion.effect.joint": "Bong Bomb",
+      "block.chiller_mod.water_bong": "Water Bong",
       "item_group.chiller_mod.weed": "Weed",
       "item.chiller_mod.black_glass_stick": "Black Glass Stick",
       "item.minecraft.potion.effect.joint": "Bong",
