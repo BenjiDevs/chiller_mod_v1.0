@@ -1,0 +1,66 @@
+{
+  "_fv": 57,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Bong",
+    "splashName": "Bong Bomb",
+    "lingeringName": "Lingering Bong",
+    "arrowName": "High Arrow",
+    "effects": [
+      {
+        "effect": {
+          "value": "NAUSEA"
+        },
+        "duration": 3600,
+        "amplifier": 2,
+        "ambient": false,
+        "showParticles": true
+      },
+      {
+        "effect": {
+          "value": "HERO_OF_THE_VILLAGE"
+        },
+        "duration": 3600,
+        "amplifier": 5,
+        "ambient": false,
+        "showParticles": true
+      },
+      {
+        "effect": {
+          "value": "HUNGER"
+        },
+        "duration": 3600,
+        "amplifier": 1,
+        "ambient": false,
+        "showParticles": true
+      },
+      {
+        "effect": {
+          "value": "REGENERATION"
+        },
+        "duration": 3600,
+        "amplifier": 3,
+        "ambient": false,
+        "showParticles": true
+      },
+      {
+        "effect": {
+          "value": "SLOW_FALLING"
+        },
+        "duration": 3600,
+        "amplifier": 2,
+        "ambient": false,
+        "showParticles": true
+      },
+      {
+        "effect": {
+          "value": "JUMP_BOOST"
+        },
+        "duration": 3600,
+        "amplifier": 4,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}

@@ -128,6 +128,123 @@
           "src/main/resources/assets/chiller_mod/models/item/jakeman_vacation_disk.json"
         ]
       }
+    },
+    {
+      "name": "FirstHigh",
+      "type": "achievement",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "first_high",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chiller_mod/advancements/first_high.json"
+        ]
+      }
+    },
+    {
+      "name": "Joint",
+      "type": "potion",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "joint",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Bongtest",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bongtest",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chillermod/block/BongtestBlock.java",
+          "src/main/resources/assets/chiller_mod/models/item/bongtest.json",
+          "src/main/resources/assets/chiller_mod/models/block/bongtest.json",
+          "src/main/resources/assets/chiller_mod/blockstates/bongtest.json"
+        ]
+      }
+    },
+    {
+      "name": "Weed",
+      "type": "tab",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weed",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Vapetest",
+      "type": "tool",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vapetest",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chillermod/item/VapetestItem.java",
+          "src/main/resources/assets/chiller_mod/models/item/vapetest.json"
+        ]
+      }
+    },
+    {
+      "name": "Buzzed",
+      "type": "achievement",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "buzzed",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chiller_mod/advancements/buzzed.json"
+        ]
+      }
+    },
+    {
+      "name": "VapetestRightclicked",
+      "type": "procedure",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vapetest_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chillermod/procedures/VapetestRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -143,14 +260,25 @@
   ],
   "language_map": {
     "en_us": {
-      "item.chiller_mod.black_glass_stick": "Black Glass Stick",
+      "item.minecraft.tipped_arrow.effect.joint": "High Arrow",
+      "item.chiller_mod.vapetest": "Cherry Bomb Vape",
       "biome.chiller_mod.chiller_biome": "Chiller Biome",
+      "advancements.first_high.descr": "Get your first high by consuming the zaa",
+      "advancements.buzzed.title": "The New Cool Kid",
       "subtitles.jakeman_vacation": "",
-      "item.chiller_mod.jakeman_vacation_disk": "Jakeman Vacation Disk",
-      "block.chiller_mod.weed_bale": "Weed Bale",
       "item.chiller_mod.jakeman_vacation_disk.desc": "Jakeman Vacation (Feat. Saif)",
-      "item.chiller_mod.marijuanleaf": "Marijuanleaf",
-      "item.chiller_mod.stoner_sword": "Stoner Sword"
+      "item.minecraft.splash_potion.effect.joint": "Bong Bomb",
+      "advancements.first_high.title": "First High",
+      "item.chiller_mod.stoner_sword": "Stoner Sword",
+      "item.minecraft.lingering_potion.effect.joint": "Lingering Bong",
+      "block.chiller_mod.bongtest": "Bongtest",
+      "item_group.chiller_mod.weed": "Weed",
+      "item.chiller_mod.black_glass_stick": "Black Glass Stick",
+      "item.minecraft.potion.effect.joint": "Bong",
+      "item.chiller_mod.jakeman_vacation_disk": "Jakeman Vacation Disk",
+      "advancements.buzzed.descr": "Get a buzz for the first time",
+      "block.chiller_mod.weed_bale": "Weed Bale",
+      "item.chiller_mod.marijuanleaf": "Marijuana Leaf"
     }
   },
   "foldersRoot": {

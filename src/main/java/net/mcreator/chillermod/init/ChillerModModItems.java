@@ -12,6 +12,7 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.chillermod.item.VapetestItem;
 import net.mcreator.chillermod.item.StonerSwordItem;
 import net.mcreator.chillermod.item.MarijuanleafItem;
 import net.mcreator.chillermod.item.JakemanVacationDiskItem;
@@ -25,6 +26,8 @@ public class ChillerModModItems {
 	public static final RegistryObject<Item> BLACK_GLASS_STICK = REGISTRY.register("black_glass_stick", () -> new BlackGlassStickItem());
 	public static final RegistryObject<Item> WEED_BALE = block(ChillerModModBlocks.WEED_BALE);
 	public static final RegistryObject<Item> JAKEMAN_VACATION_DISK = REGISTRY.register("jakeman_vacation_disk", () -> new JakemanVacationDiskItem());
+	public static final RegistryObject<Item> BONGTEST = block(ChillerModModBlocks.BONGTEST);
+	public static final RegistryObject<Item> VAPETEST = REGISTRY.register("vapetest", () -> new VapetestItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

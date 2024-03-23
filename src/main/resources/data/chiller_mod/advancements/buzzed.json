@@ -1,0 +1,33 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "chiller_mod:vapetest"
+    },
+    "title": {
+      "translate": "advancements.buzzed.title"
+    },
+    "description": {
+      "translate": "advancements.buzzed.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "buzzed": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "chiller_mod:vapetest"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 200
+  }
+}

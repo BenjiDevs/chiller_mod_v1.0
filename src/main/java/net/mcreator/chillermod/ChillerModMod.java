@@ -31,6 +31,7 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.chillermod.init.ChillerModModTabs;
 import net.mcreator.chillermod.init.ChillerModModSounds;
+import net.mcreator.chillermod.init.ChillerModModPotions;
 import net.mcreator.chillermod.init.ChillerModModItems;
 import net.mcreator.chillermod.init.ChillerModModBlocks;
 
@@ -57,6 +58,8 @@ public class ChillerModMod {
 		ChillerModModItems.REGISTRY.register(bus);
 
 		ChillerModModTabs.REGISTRY.register(bus);
+
+		ChillerModModPotions.REGISTRY.register(bus);
 
 	}
 

@@ -7,10 +7,10 @@
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Marijuanleaf",
+    "name": "Marijuana Leaf",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "No creative tab entry"
+      "value": "CUSTOM:Weed"
     },
     "stackSize": 64,
     "enchantability": 0,

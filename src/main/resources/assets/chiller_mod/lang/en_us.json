@@ -1,10 +1,21 @@
 {
-  "item.chiller_mod.black_glass_stick": "Black Glass Stick",
+  "item.minecraft.tipped_arrow.effect.joint": "High Arrow",
+  "item.chiller_mod.vapetest": "Cherry Bomb Vape",
   "biome.chiller_mod.chiller_biome": "Chiller Biome",
+  "advancements.first_high.descr": "Get your first high by consuming the zaa",
+  "advancements.buzzed.title": "The New Cool Kid",
   "subtitles.jakeman_vacation": "",
-  "item.chiller_mod.jakeman_vacation_disk": "Jakeman Vacation Disk",
-  "block.chiller_mod.weed_bale": "Weed Bale",
   "item.chiller_mod.jakeman_vacation_disk.desc": "Jakeman Vacation (Feat. Saif)",
-  "item.chiller_mod.marijuanleaf": "Marijuanleaf",
-  "item.chiller_mod.stoner_sword": "Stoner Sword"
+  "item.minecraft.splash_potion.effect.joint": "Bong Bomb",
+  "advancements.first_high.title": "First High",
+  "item.chiller_mod.stoner_sword": "Stoner Sword",
+  "item.minecraft.lingering_potion.effect.joint": "Lingering Bong",
+  "block.chiller_mod.bongtest": "Bongtest",
+  "item_group.chiller_mod.weed": "Weed",
+  "item.chiller_mod.black_glass_stick": "Black Glass Stick",
+  "item.minecraft.potion.effect.joint": "Bong",
+  "item.chiller_mod.jakeman_vacation_disk": "Jakeman Vacation Disk",
+  "advancements.buzzed.descr": "Get a buzz for the first time",
+  "block.chiller_mod.weed_bale": "Weed Bale",
+  "item.chiller_mod.marijuanleaf": "Marijuana Leaf"
 }

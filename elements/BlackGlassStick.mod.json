@@ -10,7 +10,7 @@
     "name": "Black Glass Stick",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "MATERIALS"
+      "value": "CUSTOM:Weed"
     },
     "stackSize": 64,
     "enchantability": 0,
