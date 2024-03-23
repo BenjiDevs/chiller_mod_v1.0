@@ -544,6 +544,38 @@
           "src/main/resources/data/chiller_mod/forge/biome_modifier/chiller_chicken_biome_modifier.json"
         ]
       }
+    },
+    {
+      "name": "WeedWoodLog",
+      "type": "block",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weed_wood_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chiller_mod/blockstates/weed_wood_log.json",
+          "src/main/resources/assets/chiller_mod/models/block/weed_wood_log.json",
+          "src/main/resources/assets/chiller_mod/models/item/weed_wood_log.json",
+          "src/main/java/net/mcreator/chillermod/block/WeedWoodLogBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "WeedWoodLeaves",
+      "type": "block",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weed_wood_leaves",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chiller_mod/blockstates/weed_wood_leaves.json",
+          "src/main/java/net/mcreator/chillermod/block/WeedWoodLeavesBlock.java",
+          "src/main/resources/assets/chiller_mod/models/block/weed_wood_leaves.json",
+          "src/main/resources/assets/chiller_mod/models/item/weed_wood_leaves.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -560,13 +592,14 @@
   "language_map": {
     "en_us": {
       "item.chiller_mod.keef": "Keef",
-      "gui.chiller_mod.grinder_gui.label_grinder": "Grinder",
       "item.chiller_mod.vapetest": "Cherry Bomb Vape",
+      "gui.chiller_mod.grinder_gui.label_grinder": "Grinder",
       "item.chiller_mod.grinder_spike": "Grinder Spike",
       "biome.chiller_mod.chiller_biome": "Chiller Biome",
       "advancements.buzzed.title": "The New Cool Kid",
       "entity.chiller_mod.chiller_cow": "Chiller Cow",
       "subtitles.jakeman_vacation": "",
+      "block.chiller_mod.weed_wood_leaves": "Weed Wood Leaves",
       "item.chiller_mod.jakeman_vacation_disk.desc": "Jakeman Vacation (Feat. Saif)",
       "item.chiller_mod.chiller_cow_spawn_egg": "Chiller Cow Spawn Egg",
       "item.minecraft.splash_potion.effect.joint": "Bong Bomb",
@@ -574,6 +607,7 @@
       "item_group.chiller_mod.weed": "Weed",
       "item.chiller_mod.chiller_chicken_spawn_egg": "Chiller Chicken Spawn Egg",
       "item.chiller_mod.black_glass_stick": "Black Glass Stick",
+      "block.chiller_mod.weed_wood_log": "Weed Wood Log",
       "item.minecraft.potion.effect.joint": "Bong",
       "gui.chiller_mod.grinder_gui.tooltip_add_marijuana_leaves_to_grind": "Add Marijuana Leaves to grind",
       "item.chiller_mod.jakeman_vacation_disk": "Jakeman Vacation Disk",

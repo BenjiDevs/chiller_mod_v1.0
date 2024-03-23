@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "chiller_mod:block/oak_log_29_je5_be2",
+    "up": "chiller_mod:block/oak_log_29_je5_be2",
+    "north": "chiller_mod:block/oak_log_29_je4_be2",
+    "east": "chiller_mod:block/oak_log_29_je4_be2",
+    "south": "chiller_mod:block/oak_log_29_je4_be2",
+    "west": "chiller_mod:block/oak_log_29_je4_be2",
+    "particle": "chiller_mod:block/oak_log_29_je5_be2"
+  },
+  "render_type": "solid"
+}

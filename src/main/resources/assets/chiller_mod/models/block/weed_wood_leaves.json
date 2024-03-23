@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "chiller_mod:block/oak_leaves_29_je4_be2",
+    "particle": "chiller_mod:block/oak_leaves_29_je4_be2"
+  },
+  "render_type": "translucent"
+}
