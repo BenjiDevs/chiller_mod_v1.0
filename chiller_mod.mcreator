@@ -245,6 +245,22 @@
           }
         ]
       }
+    },
+    {
+      "name": "Snoop",
+      "type": "livingentity",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "snoop",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chillermod/client/renderer/SnoopRenderer.java",
+          "src/main/resources/assets/chiller_mod/models/item/snoop_spawn_egg.json",
+          "src/main/resources/data/chiller_mod/forge/biome_modifier/snoop_biome_modifier.json",
+          "src/main/java/net/mcreator/chillermod/entity/SnoopEntity.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -277,6 +293,8 @@
       "item.minecraft.potion.effect.joint": "Bong",
       "item.chiller_mod.jakeman_vacation_disk": "Jakeman Vacation Disk",
       "advancements.buzzed.descr": "Get a buzz for the first time",
+      "item.chiller_mod.snoop_spawn_egg": "Snoop Spawn Egg",
+      "entity.chiller_mod.snoop": "Snoop",
       "block.chiller_mod.weed_bale": "Weed Bale",
       "item.chiller_mod.marijuanleaf": "Marijuana Leaf"
     }

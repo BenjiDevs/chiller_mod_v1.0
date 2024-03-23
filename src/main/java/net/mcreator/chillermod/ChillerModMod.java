@@ -33,6 +33,7 @@ import net.mcreator.chillermod.init.ChillerModModTabs;
 import net.mcreator.chillermod.init.ChillerModModSounds;
 import net.mcreator.chillermod.init.ChillerModModPotions;
 import net.mcreator.chillermod.init.ChillerModModItems;
+import net.mcreator.chillermod.init.ChillerModModEntities;
 import net.mcreator.chillermod.init.ChillerModModBlocks;
 
 import java.util.function.Supplier;
@@ -56,6 +57,7 @@ public class ChillerModMod {
 		ChillerModModBlocks.REGISTRY.register(bus);
 
 		ChillerModModItems.REGISTRY.register(bus);
+		ChillerModModEntities.REGISTRY.register(bus);
 
 		ChillerModModTabs.REGISTRY.register(bus);
 
