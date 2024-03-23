@@ -1,0 +1,18 @@
+{
+  "parent": "forge:item/default",
+  "loader": "forge:composite",
+  "children": {
+    "part1": {
+      "loader": "forge:obj",
+      "model": "chiller_mod:models/item/couch_-_converted.obj",
+      "emissive_ambient": true,
+      "textures": {
+        "#m_c6a45e85-1e7c-aa29-ff8f-af5cb788907c": "chiller_mod:block/"
+      }
+    }
+  },
+  "textures": {
+    "particle": "chiller_mod:block/texture1"
+  },
+  "render_type": "solid"
+}

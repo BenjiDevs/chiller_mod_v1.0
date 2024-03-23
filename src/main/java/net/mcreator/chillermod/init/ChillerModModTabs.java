@@ -36,6 +36,7 @@ public class ChillerModModTabs {
 				tabData.accept(ChillerModModBlocks.GRINDER_BLOCK.get().asItem());
 				tabData.accept(ChillerModModBlocks.WATER_BONG_WIT_GRASS.get().asItem());
 				tabData.accept(ChillerModModItems.GRINDER_SPIKE.get());
+				tabData.accept(ChillerModModBlocks.COUCH.get().asItem());
 			}).withSearchBar().build());
 
 	@SubscribeEvent
