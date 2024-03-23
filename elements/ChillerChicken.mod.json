@@ -2,10 +2,10 @@
   "_fv": 57,
   "_type": "livingentity",
   "definition": {
-    "mobName": "Chiller Cow",
+    "mobName": "Chiller Chicken",
     "mobLabel": "",
-    "mobModelName": "Cow",
-    "mobModelTexture": "chillercow.png",
+    "mobModelName": "Chicken",
+    "mobModelTexture": "chiller_chicken.png",
     "transparentModelCondition": {
       "fixedValue": false
     },
@@ -22,17 +22,17 @@
       "fixedValue": 1.0
     },
     "modelLayers": [],
-    "modelWidth": 0.9,
-    "modelHeight": 1.4,
+    "modelWidth": 0.4,
+    "modelHeight": 0.7,
     "modelShadowSize": 0.5,
     "mountedYOffset": 0.0,
     "hasSpawnEgg": true,
     "spawnEggBaseColor": {
-      "value": -16711936,
+      "value": -16738048,
       "falpha": 0.0
     },
     "spawnEggDotColor": {
-      "value": -16751053,
+      "value": -256,
       "falpha": 0.0
     },
     "creativeTab": {
@@ -88,7 +88,7 @@
     "canControlStrafe": false,
     "immuneToFire": false,
     "immuneToArrows": false,
-    "immuneToFallDamage": false,
+    "immuneToFallDamage": true,
     "immuneToCactus": false,
     "immuneToDrowning": false,
     "immuneToLightning": false,
@@ -103,16 +103,16 @@
       "value": ""
     },
     "livingSound": {
-      "value": "entity.cow.ambient"
+      "value": ""
     },
     "hurtSound": {
-      "value": "entity.cow.hurt"
+      "value": "entity.generic.hurt"
     },
     "deathSound": {
-      "value": "entity.cow.death"
+      "value": "entity.generic.death"
     },
     "stepSound": {
-      "value": "entity.cow.step"
+      "value": ""
     },
     "entityDataEntries": [],
     "hasAI": true,
@@ -131,9 +131,9 @@
     "spawnThisMob": true,
     "doesDespawnWhenIdle": true,
     "spawningProbability": 20,
-    "mobSpawningType": "monster",
-    "minNumberOfMobsPerGroup": 4,
-    "maxNumberOfMobsPerGroup": 4,
+    "mobSpawningType": "creature",
+    "minNumberOfMobsPerGroup": 6,
+    "maxNumberOfMobsPerGroup": 8,
     "restrictionBiomes": [
       {
         "value": "CUSTOM:ChillerBiome"

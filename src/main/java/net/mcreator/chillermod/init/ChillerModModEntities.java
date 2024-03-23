@@ -18,6 +18,7 @@ import net.minecraft.world.entity.Entity;
 
 import net.mcreator.chillermod.entity.SnoopEntity;
 import net.mcreator.chillermod.entity.ChillerCowEntity;
+import net.mcreator.chillermod.entity.ChillerChickenEntity;
 import net.mcreator.chillermod.ChillerModMod;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
@@ -29,6 +30,10 @@ public class ChillerModModEntities {
 			EntityType.Builder.<ChillerCowEntity>of(ChillerCowEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(ChillerCowEntity::new)
 
 					.sized(0.9f, 1.4f));
+	public static final RegistryObject<EntityType<ChillerChickenEntity>> CHILLER_CHICKEN = register("chiller_chicken",
+			EntityType.Builder.<ChillerChickenEntity>of(ChillerChickenEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(ChillerChickenEntity::new)
+
+					.sized(0.4f, 0.7f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -39,6 +44,7 @@ public class ChillerModModEntities {
 		event.enqueueWork(() -> {
 			SnoopEntity.init();
 			ChillerCowEntity.init();
+			ChillerChickenEntity.init();
 		});
 	}
 
@@ -46,5 +52,6 @@ public class ChillerModModEntities {
 	public static void registerAttributes(EntityAttributeCreationEvent event) {
 		event.put(SNOOP.get(), SnoopEntity.createAttributes().build());
 		event.put(CHILLER_COW.get(), ChillerCowEntity.createAttributes().build());
+		event.put(CHILLER_CHICKEN.get(), ChillerChickenEntity.createAttributes().build());
 	}
 }

@@ -11,6 +11,7 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.mcreator.chillermod.client.renderer.SnoopRenderer;
 import net.mcreator.chillermod.client.renderer.ChillerCowRenderer;
+import net.mcreator.chillermod.client.renderer.ChillerChickenRenderer;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class ChillerModModEntityRenderers {
@@ -18,5 +19,6 @@ public class ChillerModModEntityRenderers {
 	public static void registerEntityRenderers(EntityRenderersEvent.RegisterRenderers event) {
 		event.registerEntityRenderer(ChillerModModEntities.SNOOP.get(), SnoopRenderer::new);
 		event.registerEntityRenderer(ChillerModModEntities.CHILLER_COW.get(), ChillerCowRenderer::new);
+		event.registerEntityRenderer(ChillerModModEntities.CHILLER_CHICKEN.get(), ChillerChickenRenderer::new);
 	}
 }
