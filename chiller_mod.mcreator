@@ -271,6 +271,7 @@
       "registry_name": "grinder_gui",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/chillermod/network/GrinderGUISlotMessage.java",
           "src/main/java/net/mcreator/chillermod/world/inventory/GrinderGUIMenu.java",
           "src/main/java/net/mcreator/chillermod/client/gui/GrinderGUIScreen.java"
         ]
@@ -372,6 +373,113 @@
           "src/main/resources/assets/chiller_mod/models/item/keef.json"
         ]
       }
+    },
+    {
+      "name": "GrinderGUIWhileThisGUIIsOpenTick",
+      "type": "procedure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grinder_gui_while_this_gui_is_open_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chillermod/procedures/GrinderGUIWhileThisGUIIsOpenTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GrinderBlock",
+      "type": "block",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grinder_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chiller_mod/models/item/grinder_block.json",
+          "src/main/resources/assets/chiller_mod/models/block/grinder_block.json",
+          "src/main/resources/assets/chiller_mod/blockstates/grinder_block.json",
+          "src/main/java/net/mcreator/chillermod/block/GrinderBlockBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "ItemTakenFromSlotProcedure",
+      "type": "procedure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "item_taken_from_slot_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chillermod/procedures/ItemTakenFromSlotProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AppleVapeRecipe",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "apple_vape_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chiller_mod/recipes/apple_vape_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "GrinderSpike",
+      "type": "item",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grinder_spike",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chillermod/item/GrinderSpikeItem.java",
+          "src/main/resources/assets/chiller_mod/models/item/grinder_spike.json"
+        ]
+      }
+    },
+    {
+      "name": "GrinderRecipe",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grinder_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chiller_mod/recipes/grinder_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "GrinderSpikeRecipe",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grinder_spike_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chiller_mod/recipes/grinder_spike_recipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -387,7 +495,10 @@
   ],
   "language_map": {
     "en_us": {
+      "item.chiller_mod.keef": "Keef",
+      "gui.chiller_mod.grinder_gui.label_grinder": "Grinder",
       "item.chiller_mod.vapetest": "Cherry Bomb Vape",
+      "item.chiller_mod.grinder_spike": "Grinder Spike",
       "biome.chiller_mod.chiller_biome": "Chiller Biome",
       "advancements.buzzed.title": "The New Cool Kid",
       "subtitles.jakeman_vacation": "",
@@ -396,8 +507,12 @@
       "item_group.chiller_mod.weed": "Weed",
       "item.chiller_mod.black_glass_stick": "Black Glass Stick",
       "item.minecraft.potion.effect.joint": "Bong",
+      "gui.chiller_mod.grinder_gui.tooltip_add_marijuana_leaves_to_grind": "Add Marijuana Leaves to grind",
       "item.chiller_mod.jakeman_vacation_disk": "Jakeman Vacation Disk",
+      "painting.chiller_mod.weed_painting_1.title": "Weed Painting 1",
       "item.minecraft.tipped_arrow.effect.joint": "High Arrow",
+      "painting.chiller_mod.weed_painting_1.author": "jakeman",
+      "block.chiller_mod.grinder_block": "Grinder Block",
       "advancements.first_high.descr": "Get your first high by consuming the zaa",
       "advancements.first_high.title": "First High",
       "item.chiller_mod.stoner_sword": "Stoner Sword",
@@ -407,6 +522,7 @@
       "item.chiller_mod.snoop_spawn_egg": "Snoop Spawn Egg",
       "entity.chiller_mod.snoop": "Snoop",
       "block.chiller_mod.weed_bale": "Weed Bale",
+      "item.chiller_mod.grinded_weed": "Grinded Weed",
       "item.chiller_mod.marijuanleaf": "Marijuana Leaf"
     }
   },

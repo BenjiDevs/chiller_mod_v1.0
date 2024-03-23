@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "chiller_mod:block/grinder_block",
+    "particle": "chiller_mod:block/grinder_block"
+  },
+  "render_type": "translucent"
+}

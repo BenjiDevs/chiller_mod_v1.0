@@ -10,8 +10,8 @@ import net.minecraft.network.chat.Component;
 
 import java.util.List;
 
-public class KeefItem extends Item {
-	public KeefItem() {
+public class GrinderSpikeItem extends Item {
+	public GrinderSpikeItem() {
 		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON));
 	}
 

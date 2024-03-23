@@ -1,8 +1,37 @@
 
 package net.mcreator.chillermod.world.inventory;
 
+import net.minecraftforge.items.SlotItemHandler;
+import net.minecraftforge.items.ItemStackHandler;
+import net.minecraftforge.items.IItemHandler;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.event.TickEvent;
+import net.minecraftforge.common.capabilities.ForgeCapabilities;
+
+import net.minecraft.world.level.block.entity.BlockEntity;
+import net.minecraft.world.level.Level;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.inventory.Slot;
+import net.minecraft.world.inventory.ContainerLevelAccess;
+import net.minecraft.world.inventory.AbstractContainerMenu;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.entity.player.Inventory;
+import net.minecraft.world.entity.Entity;
+import net.minecraft.server.level.ServerPlayer;
+import net.minecraft.network.FriendlyByteBuf;
+import net.minecraft.core.BlockPos;
+
+import net.mcreator.chillermod.procedures.GrinderGUIWhileThisGUIIsOpenTickProcedure;
+import net.mcreator.chillermod.network.GrinderGUISlotMessage;
+import net.mcreator.chillermod.init.ChillerModModMenus;
 import net.mcreator.chillermod.ChillerModMod;
 
+import java.util.function.Supplier;
+import java.util.Map;
+import java.util.HashMap;
+
+@Mod.EventBusSubscriber
 public class GrinderGUIMenu extends AbstractContainerMenu implements Supplier<Map<Integer, Slot>> {
 	public final static HashMap<String, Object> guistate = new HashMap<>();
 	public final Level world;
@@ -62,12 +91,24 @@ public class GrinderGUIMenu extends AbstractContainerMenu implements Supplier<Ma
 			private final int slot = 1;
 
 			@Override
+			public void onTake(Player entity, ItemStack stack) {
+				super.onTake(entity, stack);
+				slotChanged(1, 1, 0);
+			}
+
+			@Override
 			public boolean mayPlace(ItemStack stack) {
 				return false;
 			}
 		}));
 		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 118, 44) {
 			private final int slot = 2;
+
+			@Override
+			public void onTake(Player entity, ItemStack stack) {
+				super.onTake(entity, stack);
+				slotChanged(2, 1, 0);
+			}
 
 			@Override
 			public boolean mayPlace(ItemStack stack) {
@@ -126,7 +167,82 @@ public class GrinderGUIMenu extends AbstractContainerMenu implements Supplier<Ma
 		return itemstack;
 	}
 
-	@Override /* failed to load code for net.minecraft.world.inventory.AbstractContainerMenu */
+	@Override
+	protected boolean moveItemStackTo(ItemStack p_38904_, int p_38905_, int p_38906_, boolean p_38907_) {
+		boolean flag = false;
+		int i = p_38905_;
+		if (p_38907_) {
+			i = p_38906_ - 1;
+		}
+		if (p_38904_.isStackable()) {
+			while (!p_38904_.isEmpty()) {
+				if (p_38907_) {
+					if (i < p_38905_) {
+						break;
+					}
+				} else if (i >= p_38906_) {
+					break;
+				}
+				Slot slot = this.slots.get(i);
+				ItemStack itemstack = slot.getItem();
+				if (slot.mayPlace(itemstack) && !itemstack.isEmpty() && ItemStack.isSameItemSameTags(p_38904_, itemstack)) {
+					int j = itemstack.getCount() + p_38904_.getCount();
+					int maxSize = Math.min(slot.getMaxStackSize(), p_38904_.getMaxStackSize());
+					if (j <= maxSize) {
+						p_38904_.setCount(0);
+						itemstack.setCount(j);
+						slot.set(itemstack);
+						flag = true;
+					} else if (itemstack.getCount() < maxSize) {
+						p_38904_.shrink(maxSize - itemstack.getCount());
+						itemstack.setCount(maxSize);
+						slot.set(itemstack);
+						flag = true;
+					}
+				}
+				if (p_38907_) {
+					--i;
+				} else {
+					++i;
+				}
+			}
+		}
+		if (!p_38904_.isEmpty()) {
+			if (p_38907_) {
+				i = p_38906_ - 1;
+			} else {
+				i = p_38905_;
+			}
+			while (true) {
+				if (p_38907_) {
+					if (i < p_38905_) {
+						break;
+					}
+				} else if (i >= p_38906_) {
+					break;
+				}
+				Slot slot1 = this.slots.get(i);
+				ItemStack itemstack1 = slot1.getItem();
+				if (itemstack1.isEmpty() && slot1.mayPlace(p_38904_)) {
+					if (p_38904_.getCount() > slot1.getMaxStackSize()) {
+						slot1.setByPlayer(p_38904_.split(slot1.getMaxStackSize()));
+					} else {
+						slot1.setByPlayer(p_38904_.split(p_38904_.getCount()));
+					}
+					slot1.setChanged();
+					flag = true;
+					break;
+				}
+				if (p_38907_) {
+					--i;
+				} else {
+					++i;
+				}
+			}
+		}
+		return flag;
+	}
+
 	@Override
 	public void removed(Player playerIn) {
 		super.removed(playerIn);
@@ -155,7 +271,26 @@ public class GrinderGUIMenu extends AbstractContainerMenu implements Supplier<Ma
 		}
 	}
 
+	private void slotChanged(int slotid, int ctype, int meta) {
+		if (this.world != null && this.world.isClientSide()) {
+			ChillerModMod.PACKET_HANDLER.sendToServer(new GrinderGUISlotMessage(slotid, x, y, z, ctype, meta));
+			GrinderGUISlotMessage.handleSlotAction(entity, slotid, ctype, meta, x, y, z);
+		}
+	}
+
 	public Map<Integer, Slot> get() {
 		return customSlots;
+	}
+
+	@SubscribeEvent
+	public static void onPlayerTick(TickEvent.PlayerTickEvent event) {
+		Player entity = event.player;
+		if (event.phase == TickEvent.Phase.END && entity.containerMenu instanceof GrinderGUIMenu) {
+			Level world = entity.level();
+			double x = entity.getX();
+			double y = entity.getY();
+			double z = entity.getZ();
+			GrinderGUIWhileThisGUIIsOpenTickProcedure.execute(entity);
+		}
 	}
 }
