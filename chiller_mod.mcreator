@@ -261,6 +261,20 @@
           "src/main/java/net/mcreator/chillermod/entity/SnoopEntity.java"
         ]
       }
+    },
+    {
+      "name": "GrindedWeed",
+      "type": "item",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grinded_weed",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chiller_mod/models/item/grinded_weed.json",
+          "src/main/java/net/mcreator/chillermod/item/GrindedWeedItem.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -296,6 +310,7 @@
       "item.chiller_mod.snoop_spawn_egg": "Snoop Spawn Egg",
       "entity.chiller_mod.snoop": "Snoop",
       "block.chiller_mod.weed_bale": "Weed Bale",
+      "item.chiller_mod.grinded_weed": "Grinded Weed",
       "item.chiller_mod.marijuanleaf": "Marijuana Leaf"
     }
   },

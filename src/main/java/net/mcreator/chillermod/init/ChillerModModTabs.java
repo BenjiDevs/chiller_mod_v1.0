@@ -30,6 +30,7 @@ public class ChillerModModTabs {
 				tabData.accept(ChillerModModItems.JAKEMAN_VACATION_DISK.get());
 				tabData.accept(ChillerModModBlocks.BONGTEST.get().asItem());
 				tabData.accept(ChillerModModItems.VAPETEST.get());
+				tabData.accept(ChillerModModItems.GRINDED_WEED.get());
 			}).withSearchBar().build());
 
 	@SubscribeEvent
