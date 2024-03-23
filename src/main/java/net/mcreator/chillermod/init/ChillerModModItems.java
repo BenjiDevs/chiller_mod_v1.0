@@ -35,7 +35,9 @@ public class ChillerModModItems {
 	public static final RegistryObject<Item> SNOOP_SPAWN_EGG = REGISTRY.register("snoop_spawn_egg", () -> new ForgeSpawnEggItem(ChillerModModEntities.SNOOP, -11193088, -15220992, new Item.Properties()));
 	public static final RegistryObject<Item> GRINDED_WEED = REGISTRY.register("grinded_weed", () -> new GrindedWeedItem());
 	public static final RegistryObject<Item> KEEF = REGISTRY.register("keef", () -> new KeefItem());
+	public static final RegistryObject<Item> WATER_BONG = block(ChillerModModBlocks.WATER_BONG);
 	public static final RegistryObject<Item> GRINDER_BLOCK = block(ChillerModModBlocks.GRINDER_BLOCK);
+	public static final RegistryObject<Item> WATER_BONG_WIT_GRASS = block(ChillerModModBlocks.WATER_BONG_WIT_GRASS);
 	public static final RegistryObject<Item> GRINDER_SPIKE = REGISTRY.register("grinder_spike", () -> new GrinderSpikeItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {

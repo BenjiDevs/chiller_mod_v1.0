@@ -375,21 +375,15 @@
       }
     },
     {
-      "name": "GrinderGUIWhileThisGUIIsOpenTick",
-      "type": "procedure",
-      "sortid": 22,
+      "name": "AppleVapeRecipe",
+      "type": "recipe",
+      "sortid": 25,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "grinder_gui_while_this_gui_is_open_tick",
+      "registry_name": "apple_vape_recipe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/chillermod/procedures/GrinderGUIWhileThisGUIIsOpenTickProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
+          "src/main/resources/data/chiller_mod/recipes/apple_vape_recipe.json"
         ]
       }
     },
@@ -410,6 +404,39 @@
       }
     },
     {
+      "name": "GrinderSpike",
+      "type": "item",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grinder_spike",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chillermod/item/GrinderSpikeItem.java",
+          "src/main/resources/assets/chiller_mod/models/item/grinder_spike.json"
+        ]
+      }
+    },
+    {
+      "name": "GrinderGUIWhileThisGUIIsOpenTick",
+      "type": "procedure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grinder_gui_while_this_gui_is_open_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chillermod/procedures/GrinderGUIWhileThisGUIIsOpenTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
       "name": "ItemTakenFromSlotProcedure",
       "type": "procedure",
       "sortid": 24,
@@ -425,33 +452,6 @@
             "name": "entity",
             "type": "entity"
           }
-        ]
-      }
-    },
-    {
-      "name": "AppleVapeRecipe",
-      "type": "recipe",
-      "sortid": 25,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "apple_vape_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/chiller_mod/recipes/apple_vape_recipe.json"
-        ]
-      }
-    },
-    {
-      "name": "GrinderSpike",
-      "type": "item",
-      "sortid": 26,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "grinder_spike",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/chillermod/item/GrinderSpikeItem.java",
-          "src/main/resources/assets/chiller_mod/models/item/grinder_spike.json"
         ]
       }
     },
@@ -478,6 +478,38 @@
       "metadata": {
         "files": [
           "src/main/resources/data/chiller_mod/recipes/grinder_spike_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "WaterBongWitGrass",
+      "type": "block",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "water_bong_wit_grass",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chiller_mod/models/block/water_bong_wit_grass.json",
+          "src/main/java/net/mcreator/chillermod/block/WaterBongWitGrassBlock.java",
+          "src/main/resources/assets/chiller_mod/blockstates/water_bong_wit_grass.json",
+          "src/main/resources/assets/chiller_mod/models/item/water_bong_wit_grass.json"
+        ]
+      }
+    },
+    {
+      "name": "WaterBong",
+      "type": "block",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "water_bong",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chiller_mod/models/item/water_bong.json",
+          "src/main/java/net/mcreator/chillermod/block/WaterBongBlock.java",
+          "src/main/resources/assets/chiller_mod/models/block/water_bong.json",
+          "src/main/resources/assets/chiller_mod/blockstates/water_bong.json"
         ]
       }
     }

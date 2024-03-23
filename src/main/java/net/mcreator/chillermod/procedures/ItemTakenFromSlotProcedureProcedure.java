@@ -1,11 +1,8 @@
 package net.mcreator.chillermod.procedures;
 
-import net.minecraft.world.inventory.Slot;
-import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.entity.Entity;
+import net.minecraftforge.eventbus.api.Event;
 
-import java.util.function.Supplier;
-import java.util.Map;
+import javax.annotation.Nullable;
 
 public class ItemTakenFromSlotProcedureProcedure {
 	public static void execute(Entity entity) {
