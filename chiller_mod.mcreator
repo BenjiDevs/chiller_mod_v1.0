@@ -272,6 +272,7 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/chillermod/client/gui/GrinderGUIScreen.java",
+          "src/main/java/net/mcreator/chillermod/network/GrinderGUISlotMessage.java",
           "src/main/java/net/mcreator/chillermod/world/inventory/GrinderGUIMenu.java"
         ]
       }
@@ -527,8 +528,9 @@
   "language_map": {
     "en_us": {
       "item.chiller_mod.keef": "Keef",
-      "item.chiller_mod.vapetest": "Cherry Bomb Vape",
       "gui.chiller_mod.grinder_gui.label_grinder": "Grinder",
+      "item.chiller_mod.vapetest": "Cherry Bomb Vape",
+      "item.chiller_mod.grinder_spike": "Grinder Spike",
       "biome.chiller_mod.chiller_biome": "Chiller Biome",
       "advancements.buzzed.title": "The New Cool Kid",
       "subtitles.jakeman_vacation": "",
@@ -543,6 +545,7 @@
       "painting.chiller_mod.weed_painting_1.title": "Weed Painting 1",
       "item.minecraft.tipped_arrow.effect.joint": "High Arrow",
       "painting.chiller_mod.weed_painting_1.author": "jakeman",
+      "block.chiller_mod.grinder_block": "Grinder Block",
       "advancements.first_high.descr": "Get your first high by consuming the zaa",
       "advancements.first_high.title": "First High",
       "item.chiller_mod.stoner_sword": "Stoner Sword",
