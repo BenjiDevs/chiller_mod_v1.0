@@ -1,7 +1,16 @@
 {
   "variants": {
-    "": {
+    "axis=x": {
+      "model": "chiller_mod:block/weed_bale",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
       "model": "chiller_mod:block/weed_bale"
+    },
+    "axis=z": {
+      "model": "chiller_mod:block/weed_bale",
+      "x": 90
     }
   }
 }

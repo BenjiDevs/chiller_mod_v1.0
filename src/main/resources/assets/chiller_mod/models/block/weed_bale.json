@@ -1,8 +1,13 @@
 {
-  "parent": "block/cube_all",
+  "parent": "block/cube",
   "textures": {
-    "all": "chiller_mod:block/weed_bale",
-    "particle": "chiller_mod:block/weed_bale"
+    "down": "chiller_mod:block/weedbaletopbottom",
+    "up": "chiller_mod:block/weedbaletopbottom",
+    "north": "chiller_mod:block/weedbaleside",
+    "east": "chiller_mod:block/weedbaleside",
+    "south": "chiller_mod:block/weedbaleside",
+    "west": "chiller_mod:block/weedbaleside",
+    "particle": "chiller_mod:block/weedbaletopbottom"
   },
   "render_type": "solid"
 }
