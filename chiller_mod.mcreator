@@ -984,6 +984,78 @@
           "src/main/resources/data/chiller_mod/recipes/carrot_vape_recipe.json"
         ]
       }
+    },
+    {
+      "name": "WeedGreatAxe",
+      "type": "tool",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weed_great_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chillermod/item/WeedGreatAxeItem.java",
+          "src/main/resources/assets/chiller_mod/models/item/weed_great_axe.json"
+        ]
+      }
+    },
+    {
+      "name": "WeedGreatAxeRecipe",
+      "type": "recipe",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weed_great_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chiller_mod/recipes/weed_great_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ChiefStart",
+      "type": "achievement",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chief_start",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chiller_mod/advancements/chief_start.json"
+        ]
+      }
+    },
+    {
+      "name": "BabyBong",
+      "type": "achievement",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baby_bong",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chiller_mod/advancements/baby_bong.json"
+        ]
+      }
+    },
+    {
+      "name": "WaterBongBlockAdded",
+      "type": "procedure",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "water_bong_block_added",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chillermod/procedures/WaterBongBlockAddedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -1008,48 +1080,53 @@
   "language_map": {
     "en_us": {
       "item.chiller_mod.keef": "Keef",
-      "gui.chiller_mod.grinder_gui.label_grinder": "Grinder",
       "item.chiller_mod.vapetest": "Red Apple Flavored Vape",
       "item.chiller_mod.grinder_spike": "Grinder Spike",
-      "biome.chiller_mod.chiller_biome": "Chiller Biome",
-      "advancements.buzzed.title": "The New Cool Kid",
       "entity.chiller_mod.chiller_cow": "Chiller Cow",
-      "item.chiller_mod.ak_fire_serpent": "§c§lAk-47 | Fire Serpent",
-      "subtitles.jakeman_vacation": "",
       "block.chiller_mod.weed_wood_leaves": "Weed Wood Leaves",
-      "item.chiller_mod.jakeman_vacation_disk.desc": "Jakeman Vacation (Feat. Saif)",
-      "item.chiller_mod.chiller_cow_spawn_egg": "Chiller Cow Spawn Egg",
+      "subtitles.jakeman_vacation": "",
       "item.minecraft.splash_potion.effect.joint": "Bong Bomb",
       "item.chiller_mod.bloo_berry_vape": "Bloo Berry Vape",
-      "block.chiller_mod.water_bong": "Water Bong",
-      "item.chiller_mod.lighter": "Lighter",
-      "item.chiller_mod.carrot_vape": "Bloo Berry Vape",
       "item_group.chiller_mod.weed": "Weed",
-      "item.chiller_mod.chiller_chicken_spawn_egg": "Chiller Chicken Spawn Egg",
       "item.chiller_mod.black_glass_stick": "Black Glass Stick",
       "block.chiller_mod.weed_wood_log": "Weed Wood Log",
       "item.minecraft.potion.effect.joint": "Bong",
       "gui.chiller_mod.grinder_gui.tooltip_add_marijuana_leaves_to_grind": "Add Marijuana Leaves to grind",
-      "item.chiller_mod.jakeman_vacation_disk": "Jakeman Vacation Disc",
       "block.chiller_mod.weed_wood_plank": "Weed Wood Plank",
-      "item.chiller_mod.gun": "Gun",
       "painting.chiller_mod.weed_painting_1.title": "Weed Painting 1",
       "block.chiller_mod.weed_wood_planks": "Weed Wood Planks",
+      "advancements.baby_bong.descr": "Craft your first bong (or steal it)",
       "block.chiller_mod.couch": "Couch",
+      "item.chiller_mod.weed_great_axe": "Weed Great Axe",
+      "advancements.first_high.title": "First High",
+      "block.chiller_mod.water_bong_wit_grass": "Water Bong Wit Grass",
+      "block.chiller_mod.bongtest": "Bongtest",
+      "advancements.buzzed.descr": "Get a buzz for the first time",
+      "item.chiller_mod.snoop_spawn_egg": "Snoop Spawn Egg",
+      "entity.chiller_mod.snoop": "Snoop",
+      "advancements.chief_start.descr": "Welcome to the Chiller Mod!",
+      "gui.chiller_mod.grinder_gui.label_grinder": "Grinder",
+      "biome.chiller_mod.chiller_biome": "Chiller Biome",
+      "advancements.buzzed.title": "The New Cool Kid",
+      "item.chiller_mod.ak_fire_serpent": "§c§lAk-47 | Fire Serpent",
+      "item.chiller_mod.jakeman_vacation_disk.desc": "Jakeman Vacation (Feat. Saif)",
+      "item.chiller_mod.chiller_cow_spawn_egg": "Chiller Cow Spawn Egg",
+      "block.chiller_mod.water_bong": "Water Bong",
+      "item.chiller_mod.lighter": "Lighter",
+      "item.chiller_mod.carrot_vape": "Carrot Cake Vape",
+      "item.chiller_mod.chiller_chicken_spawn_egg": "Chiller Chicken Spawn Egg",
+      "advancements.baby_bong.title": "Baby\u0027s First Bong",
+      "item.chiller_mod.jakeman_vacation_disk": "Jakeman Vacation Disc",
+      "item.chiller_mod.gun": "Gun",
       "item.minecraft.tipped_arrow.effect.joint": "High Arrow",
       "painting.chiller_mod.weed_painting_1.author": "jakeman",
       "block.chiller_mod.grinder_block": "Grinder Block",
       "advancements.first_high.descr": "Get your first high by consuming the zaa",
       "block.chiller_mod.threedgrinder": "Threedgrinder",
       "entity.chiller_mod.chiller_chicken": "Chiller Chicken",
-      "advancements.first_high.title": "First High",
       "item.chiller_mod.stoner_sword": "Stoner Sword",
       "item.minecraft.lingering_potion.effect.joint": "Lingering Bong",
-      "block.chiller_mod.water_bong_wit_grass": "Water Bong Wit Grass",
-      "block.chiller_mod.bongtest": "Bongtest",
-      "advancements.buzzed.descr": "Get a buzz for the first time",
-      "item.chiller_mod.snoop_spawn_egg": "Snoop Spawn Egg",
-      "entity.chiller_mod.snoop": "Snoop",
+      "advancements.chief_start.title": "A Chiefer\u0027s Journey",
       "block.chiller_mod.weed_bale": "Weed Bale",
       "item.chiller_mod.grinded_weed": "Ground Weed",
       "item.chiller_mod.marijuanleaf": "Marijuana Leaf"

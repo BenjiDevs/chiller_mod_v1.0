@@ -1,0 +1,33 @@
+{
+  "_fv": 57,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Axe",
+    "renderType": 1,
+    "blockingRenderType": 0,
+    "texture": "greataxetexture",
+    "customModelName": "weedgreataxe:default",
+    "blockingModelName": "Normal blocking",
+    "name": "Weed Great Axe",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTab": {
+      "value": "CUSTOM:Weed"
+    },
+    "harvestLevel": 0,
+    "efficiency": 7.5,
+    "attackSpeed": 0.6,
+    "enchantability": 24,
+    "damageVsEntity": 12.0,
+    "usageCount": 500,
+    "blocksAffected": [],
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

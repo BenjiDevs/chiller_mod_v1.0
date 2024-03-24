@@ -1,0 +1,7 @@
+{
+  "parent": "chiller_mod:custom/weedgreataxe",
+  "textures": {
+    "0": "chiller_mod:block/greataxetexture",
+    "particle": "chiller_mod:item/greataxetexture"
+  }
+}

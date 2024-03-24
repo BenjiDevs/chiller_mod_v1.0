@@ -1,6 +1,5 @@
 {
   "display": {
-    "background": "minecraft:textures/block/stone.png",
     "icon": {
       "item": "chiller_mod:marijuanleaf"
     },
@@ -29,5 +28,6 @@
   },
   "rewards": {
     "experience": 100
-  }
+  },
+  "parent": "chiller_mod:chief_start"
 }

@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "chiller_mod:water_bong_wit_grass"
+    },
+    "title": {
+      "translate": "advancements.baby_bong.title"
+    },
+    "description": {
+      "translate": "advancements.baby_bong.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "baby_bong": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chiller_mod:bongtest"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "chiller_mod:first_high"
+}

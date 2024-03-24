@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aba",
+    " b "
+  ],
+  "key": {
+    "a": {
+      "item": "chiller_mod:marijuanleaf"
+    },
+    "b": {
+      "item": "chiller_mod:black_glass_stick"
+    }
+  },
+  "result": {
+    "item": "chiller_mod:weed_great_axe",
+    "count": 1
+  }
+}
