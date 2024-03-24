@@ -756,6 +756,207 @@
           "src/main/java/net/mcreator/chillermod/item/BlooBerryVapeItem.java"
         ]
       }
+    },
+    {
+      "name": "WaterBongOnBlockRightClickedwithgroundWeed",
+      "type": "procedure",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "water_bong_on_block_right_clickedwithground_weed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chillermod/procedures/WaterBongOnBlockRightClickedwithgroundWeedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Lighter",
+      "type": "item",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lighter",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chiller_mod/models/item/lighter.json",
+          "src/main/java/net/mcreator/chillermod/item/LighterItem.java"
+        ]
+      }
+    },
+    {
+      "name": "BongtestOnBlockRightClickedWithWater",
+      "type": "procedure",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bongtest_on_block_right_clicked_with_water",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chillermod/procedures/BongtestOnBlockRightClickedWithWaterProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LighterRecipe",
+      "type": "recipe",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lighter_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chiller_mod/recipes/lighter_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "LighterRightclickedOnBongWitWeed",
+      "type": "procedure",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lighter_rightclicked_on_bong_wit_weed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chillermod/procedures/LighterRightclickedOnBongWitWeedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BlockToItemMarijuanaLeaf",
+      "type": "recipe",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_to_item_marijuana_leaf",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chiller_mod/recipes/block_to_item_marijuana_leaf.json"
+        ]
+      }
+    },
+    {
+      "name": "WaterBongWitGrassOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "water_bong_wit_grass_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chillermod/procedures/WaterBongWitGrassOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BongRecipe",
+      "type": "recipe",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bong_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chiller_mod/recipes/bong_recipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -792,7 +993,6 @@
       "item.chiller_mod.jakeman_vacation_disk.desc": "Jakeman Vacation (Feat. Saif)",
       "item.chiller_mod.chiller_cow_spawn_egg": "Chiller Cow Spawn Egg",
       "item.minecraft.splash_potion.effect.joint": "Bong Bomb",
-      "item.chiller_mod.bloo_berry_vape": "Bloo Berry Vape",
       "block.chiller_mod.water_bong": "Water Bong",
       "item_group.chiller_mod.weed": "Weed",
       "item.chiller_mod.chiller_chicken_spawn_egg": "Chiller Chicken Spawn Egg",
@@ -800,7 +1000,7 @@
       "block.chiller_mod.weed_wood_log": "Weed Wood Log",
       "item.minecraft.potion.effect.joint": "Bong",
       "gui.chiller_mod.grinder_gui.tooltip_add_marijuana_leaves_to_grind": "Add Marijuana Leaves to grind",
-      "item.chiller_mod.jakeman_vacation_disk": "Jakeman Vacation Disc",
+      "item.chiller_mod.jakeman_vacation_disk": "Jakeman Vacation Disk",
       "block.chiller_mod.weed_wood_plank": "Weed Wood Plank",
       "item.chiller_mod.gun": "Gun",
       "painting.chiller_mod.weed_painting_1.title": "Weed Painting 1",
@@ -821,8 +1021,7 @@
       "item.chiller_mod.snoop_spawn_egg": "Snoop Spawn Egg",
       "entity.chiller_mod.snoop": "Snoop",
       "block.chiller_mod.weed_bale": "Weed Bale",
-      "item.chiller_mod.grinded_weed": "Ground Weed",
-      "subtitles.ak_shot_sound": "",
+      "item.chiller_mod.grinded_weed": "Grinded Weed",
       "item.chiller_mod.marijuanleaf": "Marijuana Leaf"
     }
   },

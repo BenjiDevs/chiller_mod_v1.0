@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:black_stained_glass"
+    },
+    {
+      "item": "minecraft:black_stained_glass"
+    },
+    {
+      "item": "chiller_mod:black_glass_stick"
+    },
+    {
+      "item": "minecraft:black_stained_glass"
+    },
+    {
+      "item": "minecraft:black_stained_glass"
+    },
+    {
+      "item": "minecraft:black_stained_glass"
+    }
+  ],
+  "result": {
+    "item": "chiller_mod:bongtest",
+    "count": 1
+  }
+}

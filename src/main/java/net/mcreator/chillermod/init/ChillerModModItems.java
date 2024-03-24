@@ -16,6 +16,7 @@ import net.minecraft.world.item.BlockItem;
 import net.mcreator.chillermod.item.VapetestItem;
 import net.mcreator.chillermod.item.StonerSwordItem;
 import net.mcreator.chillermod.item.MarijuanleafItem;
+import net.mcreator.chillermod.item.LighterItem;
 import net.mcreator.chillermod.item.KeefItem;
 import net.mcreator.chillermod.item.JakemanVacationDiskItem;
 import net.mcreator.chillermod.item.GunItem;
@@ -53,6 +54,7 @@ public class ChillerModModItems {
 	public static final RegistryObject<Item> GUN = REGISTRY.register("gun", () -> new GunItem());
 	public static final RegistryObject<Item> AK_FIRE_SERPENT = REGISTRY.register("ak_fire_serpent", () -> new AkFireSerpentItem());
 	public static final RegistryObject<Item> BLOO_BERRY_VAPE = REGISTRY.register("bloo_berry_vape", () -> new BlooBerryVapeItem());
+	public static final RegistryObject<Item> LIGHTER = REGISTRY.register("lighter", () -> new LighterItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
