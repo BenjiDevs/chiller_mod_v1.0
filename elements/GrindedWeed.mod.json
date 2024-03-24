@@ -3,11 +3,11 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "grindedweed2",
+    "texture": "new_ground_weed",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Grinded Weed",
+    "name": "Ground Weed",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:Weed"

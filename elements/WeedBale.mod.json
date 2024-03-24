@@ -2,12 +2,12 @@
   "_fv": 57,
   "_type": "block",
   "definition": {
-    "texture": "weedbaletopbottom",
-    "textureTop": "weedbaletopbottom",
-    "textureLeft": "weedbaleside",
-    "textureFront": "weedbaleside",
-    "textureRight": "weedbaleside",
-    "textureBack": "weedbaleside",
+    "texture": "bale2",
+    "textureTop": "bale2",
+    "textureLeft": "hay_bale_29_je2_be2",
+    "textureFront": "hay_bale_29_je2_be2",
+    "textureRight": "hay_bale_29_je2_be2",
+    "textureBack": "hay_bale_29_je2_be2",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 5,
@@ -81,7 +81,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "PLANT"
+      "value": "CROP"
     },
     "breakSound": {
       "value": ""

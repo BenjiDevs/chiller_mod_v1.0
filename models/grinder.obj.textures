@@ -2,8 +2,7 @@
   "mappings": {
     "default": {
       "map": {
-        "0": "grinder2",
-        "missing": "texture"
+        "m_66ba8294-95f3-f6dc-4c49-a7a85bb873dd": "grinder2"
       },
       "name": "default"
     }

@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "grinder_spike",
+    "texture": "grinder_spike_new",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],

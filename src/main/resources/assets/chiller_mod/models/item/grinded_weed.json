@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "chiller_mod:item/grindedweed2"
+    "layer0": "chiller_mod:item/new_ground_weed"
   }
 }

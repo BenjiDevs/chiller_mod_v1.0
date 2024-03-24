@@ -1,13 +1,13 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "chiller_mod:block/weedbaletopbottom",
-    "up": "chiller_mod:block/weedbaletopbottom",
-    "north": "chiller_mod:block/weedbaleside",
-    "east": "chiller_mod:block/weedbaleside",
-    "south": "chiller_mod:block/weedbaleside",
-    "west": "chiller_mod:block/weedbaleside",
-    "particle": "chiller_mod:block/weedbaletopbottom"
+    "down": "chiller_mod:block/bale2",
+    "up": "chiller_mod:block/bale2",
+    "north": "chiller_mod:block/hay_bale_29_je2_be2",
+    "east": "chiller_mod:block/hay_bale_29_je2_be2",
+    "south": "chiller_mod:block/hay_bale_29_je2_be2",
+    "west": "chiller_mod:block/hay_bale_29_je2_be2",
+    "particle": "chiller_mod:block/bale2"
   },
   "render_type": "solid"
 }

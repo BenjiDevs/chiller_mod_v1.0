@@ -25,7 +25,7 @@ public class WeedBaleBlock extends Block {
 	public static final EnumProperty<Direction.Axis> AXIS = BlockStateProperties.AXIS;
 
 	public WeedBaleBlock() {
-		super(BlockBehaviour.Properties.of().sound(SoundType.GRASS).strength(1f, 10f));
+		super(BlockBehaviour.Properties.of().sound(SoundType.CROP).strength(1f, 10f));
 		this.registerDefaultState(this.stateDefinition.any().setValue(AXIS, Direction.Axis.Y));
 	}
 

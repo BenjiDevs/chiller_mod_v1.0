@@ -2,8 +2,7 @@
   "mappings": {
     "default": {
       "map": {
-        "0": "grinder2",
-        "missing": "texture"
+        "0": "blooberrytexture"
       },
       "name": "default"
     }
