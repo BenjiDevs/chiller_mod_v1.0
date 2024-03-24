@@ -9,8 +9,8 @@
       "registry_name": "marijuanleaf",
       "metadata": {
         "files": [
-          "src/main/resources/assets/chiller_mod/models/item/marijuanleaf.json",
-          "src/main/java/net/mcreator/chillermod/item/MarijuanleafItem.java"
+          "src/main/java/net/mcreator/chillermod/item/MarijuanleafItem.java",
+          "src/main/resources/assets/chiller_mod/models/item/marijuanleaf.json"
         ]
       }
     },
@@ -37,8 +37,8 @@
       "registry_name": "black_glass_stick",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/chillermod/item/BlackGlassStickItem.java",
-          "src/main/resources/assets/chiller_mod/models/item/black_glass_stick.json"
+          "src/main/resources/assets/chiller_mod/models/item/black_glass_stick.json",
+          "src/main/java/net/mcreator/chillermod/item/BlackGlassStickItem.java"
         ]
       }
     },
@@ -77,10 +77,10 @@
       "registry_name": "weed_bale",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/chillermod/block/WeedBaleBlock.java",
-          "src/main/resources/assets/chiller_mod/models/block/weed_bale.json",
           "src/main/resources/assets/chiller_mod/models/item/weed_bale.json",
-          "src/main/resources/assets/chiller_mod/blockstates/weed_bale.json"
+          "src/main/java/net/mcreator/chillermod/block/WeedBaleBlock.java",
+          "src/main/resources/assets/chiller_mod/blockstates/weed_bale.json",
+          "src/main/resources/assets/chiller_mod/models/block/weed_bale.json"
         ]
       }
     },
@@ -106,10 +106,10 @@
       "registry_name": "chiller_biome",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/chillermod/world/features/treedecorators/ChillerBiomeTrunkDecorator.java",
           "src/main/resources/data/chiller_mod/worldgen/placed_feature/chiller_biome_tree.json",
-          "src/main/resources/data/chiller_mod/worldgen/biome/chiller_biome.json",
+          "src/main/java/net/mcreator/chillermod/world/features/treedecorators/ChillerBiomeTrunkDecorator.java",
           "src/main/resources/data/chiller_mod/worldgen/configured_feature/chiller_biome_tree.json",
+          "src/main/resources/data/chiller_mod/worldgen/biome/chiller_biome.json",
           "src/main/java/net/mcreator/chillermod/world/features/treedecorators/ChillerBiomeLeaveDecorator.java",
           "src/main/java/net/mcreator/chillermod/world/features/treedecorators/ChillerBiomeFruitDecorator.java"
         ]
@@ -162,9 +162,9 @@
       "registry_name": "bongtest",
       "metadata": {
         "files": [
+          "src/main/resources/assets/chiller_mod/models/block/bongtest.json",
           "src/main/java/net/mcreator/chillermod/block/BongtestBlock.java",
           "src/main/resources/assets/chiller_mod/models/item/bongtest.json",
-          "src/main/resources/assets/chiller_mod/models/block/bongtest.json",
           "src/main/resources/assets/chiller_mod/blockstates/bongtest.json"
         ]
       }
@@ -189,8 +189,8 @@
       "registry_name": "vapetest",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/chillermod/item/VapetestItem.java",
-          "src/main/resources/assets/chiller_mod/models/item/vapetest.json"
+          "src/main/resources/assets/chiller_mod/models/item/vapetest.json",
+          "src/main/java/net/mcreator/chillermod/item/VapetestItem.java"
         ]
       }
     },
@@ -257,8 +257,8 @@
         "files": [
           "src/main/java/net/mcreator/chillermod/client/renderer/SnoopRenderer.java",
           "src/main/resources/assets/chiller_mod/models/item/snoop_spawn_egg.json",
-          "src/main/resources/data/chiller_mod/forge/biome_modifier/snoop_biome_modifier.json",
-          "src/main/java/net/mcreator/chillermod/entity/SnoopEntity.java"
+          "src/main/java/net/mcreator/chillermod/entity/SnoopEntity.java",
+          "src/main/resources/data/chiller_mod/forge/biome_modifier/snoop_biome_modifier.json"
         ]
       }
     },
@@ -271,9 +271,9 @@
       "registry_name": "grinder_gui",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/chillermod/client/gui/GrinderGUIScreen.java",
           "src/main/java/net/mcreator/chillermod/network/GrinderGUISlotMessage.java",
-          "src/main/java/net/mcreator/chillermod/world/inventory/GrinderGUIMenu.java",
-          "src/main/java/net/mcreator/chillermod/client/gui/GrinderGUIScreen.java"
+          "src/main/java/net/mcreator/chillermod/world/inventory/GrinderGUIMenu.java"
         ]
       }
     },
@@ -355,8 +355,8 @@
       "registry_name": "grinded_weed",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/chillermod/item/GrindedWeedItem.java",
-          "src/main/resources/assets/chiller_mod/models/item/grinded_weed.json"
+          "src/main/resources/assets/chiller_mod/models/item/grinded_weed.json",
+          "src/main/java/net/mcreator/chillermod/item/GrindedWeedItem.java"
         ]
       }
     },
@@ -398,8 +398,8 @@
         "files": [
           "src/main/resources/assets/chiller_mod/models/item/grinder_block.json",
           "src/main/resources/assets/chiller_mod/models/block/grinder_block.json",
-          "src/main/resources/assets/chiller_mod/blockstates/grinder_block.json",
-          "src/main/java/net/mcreator/chillermod/block/GrinderBlockBlock.java"
+          "src/main/java/net/mcreator/chillermod/block/GrinderBlockBlock.java",
+          "src/main/resources/assets/chiller_mod/blockstates/grinder_block.json"
         ]
       }
     },
@@ -412,8 +412,8 @@
       "registry_name": "grinder_spike",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/chillermod/item/GrinderSpikeItem.java",
-          "src/main/resources/assets/chiller_mod/models/item/grinder_spike.json"
+          "src/main/resources/assets/chiller_mod/models/item/grinder_spike.json",
+          "src/main/java/net/mcreator/chillermod/item/GrinderSpikeItem.java"
         ]
       }
     },
@@ -490,10 +490,10 @@
       "registry_name": "water_bong_wit_grass",
       "metadata": {
         "files": [
-          "src/main/resources/assets/chiller_mod/models/block/water_bong_wit_grass.json",
-          "src/main/java/net/mcreator/chillermod/block/WaterBongWitGrassBlock.java",
+          "src/main/resources/assets/chiller_mod/models/item/water_bong_wit_grass.json",
           "src/main/resources/assets/chiller_mod/blockstates/water_bong_wit_grass.json",
-          "src/main/resources/assets/chiller_mod/models/item/water_bong_wit_grass.json"
+          "src/main/java/net/mcreator/chillermod/block/WaterBongWitGrassBlock.java",
+          "src/main/resources/assets/chiller_mod/models/block/water_bong_wit_grass.json"
         ]
       }
     },
@@ -506,10 +506,10 @@
       "registry_name": "water_bong",
       "metadata": {
         "files": [
-          "src/main/resources/assets/chiller_mod/models/item/water_bong.json",
           "src/main/java/net/mcreator/chillermod/block/WaterBongBlock.java",
           "src/main/resources/assets/chiller_mod/models/block/water_bong.json",
-          "src/main/resources/assets/chiller_mod/blockstates/water_bong.json"
+          "src/main/resources/assets/chiller_mod/blockstates/water_bong.json",
+          "src/main/resources/assets/chiller_mod/models/item/water_bong.json"
         ]
       }
     },
@@ -522,10 +522,10 @@
       "registry_name": "chiller_cow",
       "metadata": {
         "files": [
-          "src/main/resources/assets/chiller_mod/models/item/chiller_cow_spawn_egg.json",
-          "src/main/resources/data/chiller_mod/forge/biome_modifier/chiller_cow_biome_modifier.json",
           "src/main/java/net/mcreator/chillermod/entity/ChillerCowEntity.java",
-          "src/main/java/net/mcreator/chillermod/client/renderer/ChillerCowRenderer.java"
+          "src/main/java/net/mcreator/chillermod/client/renderer/ChillerCowRenderer.java",
+          "src/main/resources/assets/chiller_mod/models/item/chiller_cow_spawn_egg.json",
+          "src/main/resources/data/chiller_mod/forge/biome_modifier/chiller_cow_biome_modifier.json"
         ]
       }
     },
@@ -538,10 +538,10 @@
       "registry_name": "couch",
       "metadata": {
         "files": [
-          "src/main/resources/assets/chiller_mod/models/item/couch.json",
-          "src/main/java/net/mcreator/chillermod/block/CouchBlock.java",
           "src/main/resources/assets/chiller_mod/blockstates/couch.json",
-          "src/main/resources/assets/chiller_mod/models/block/couch.json"
+          "src/main/resources/assets/chiller_mod/models/block/couch.json",
+          "src/main/java/net/mcreator/chillermod/block/CouchBlock.java",
+          "src/main/resources/assets/chiller_mod/models/item/couch.json"
         ]
       }
     },
@@ -554,10 +554,10 @@
       "registry_name": "chiller_chicken",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/chillermod/client/renderer/ChillerChickenRenderer.java",
           "src/main/java/net/mcreator/chillermod/entity/ChillerChickenEntity.java",
+          "src/main/resources/data/chiller_mod/forge/biome_modifier/chiller_chicken_biome_modifier.json",
           "src/main/resources/assets/chiller_mod/models/item/chiller_chicken_spawn_egg.json",
-          "src/main/resources/data/chiller_mod/forge/biome_modifier/chiller_chicken_biome_modifier.json"
+          "src/main/java/net/mcreator/chillermod/client/renderer/ChillerChickenRenderer.java"
         ]
       }
     },
@@ -571,8 +571,8 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/chiller_mod/blockstates/weed_wood_log.json",
-          "src/main/resources/assets/chiller_mod/models/block/weed_wood_log.json",
           "src/main/resources/assets/chiller_mod/models/item/weed_wood_log.json",
+          "src/main/resources/assets/chiller_mod/models/block/weed_wood_log.json",
           "src/main/java/net/mcreator/chillermod/block/WeedWoodLogBlock.java"
         ]
       }
@@ -586,10 +586,10 @@
       "registry_name": "weed_wood_leaves",
       "metadata": {
         "files": [
-          "src/main/resources/assets/chiller_mod/blockstates/weed_wood_leaves.json",
           "src/main/java/net/mcreator/chillermod/block/WeedWoodLeavesBlock.java",
           "src/main/resources/assets/chiller_mod/models/block/weed_wood_leaves.json",
-          "src/main/resources/assets/chiller_mod/models/item/weed_wood_leaves.json"
+          "src/main/resources/assets/chiller_mod/models/item/weed_wood_leaves.json",
+          "src/main/resources/assets/chiller_mod/blockstates/weed_wood_leaves.json"
         ]
       }
     },
@@ -602,10 +602,10 @@
       "registry_name": "threedgrinder",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/chillermod/block/ThreedgrinderBlock.java",
-          "src/main/resources/assets/chiller_mod/blockstates/threedgrinder.json",
+          "src/main/resources/assets/chiller_mod/models/block/threedgrinder.json",
           "src/main/resources/assets/chiller_mod/models/item/threedgrinder.json",
-          "src/main/resources/assets/chiller_mod/models/block/threedgrinder.json"
+          "src/main/java/net/mcreator/chillermod/block/ThreedgrinderBlock.java",
+          "src/main/resources/assets/chiller_mod/blockstates/threedgrinder.json"
         ]
       }
     },
@@ -618,10 +618,10 @@
       "registry_name": "weed_wood_plank",
       "metadata": {
         "files": [
-          "src/main/resources/assets/chiller_mod/models/block/weed_wood_plank.json",
+          "src/main/java/net/mcreator/chillermod/block/WeedWoodPlankBlock.java",
           "src/main/resources/assets/chiller_mod/blockstates/weed_wood_plank.json",
           "src/main/resources/assets/chiller_mod/models/item/weed_wood_plank.json",
-          "src/main/java/net/mcreator/chillermod/block/WeedWoodPlankBlock.java"
+          "src/main/resources/assets/chiller_mod/models/block/weed_wood_plank.json"
         ]
       }
     },
@@ -634,12 +634,12 @@
       "registry_name": "weed_wood_planks",
       "metadata": {
         "files": [
-          "src/main/resources/assets/chiller_mod/models/block/weed_wood_planks_full.json",
           "src/main/resources/assets/chiller_mod/models/block/weed_wood_planks.json",
           "src/main/resources/assets/chiller_mod/models/item/weed_wood_planks.json",
-          "src/main/resources/assets/chiller_mod/blockstates/weed_wood_planks.json",
           "src/main/java/net/mcreator/chillermod/block/WeedWoodPlanksBlock.java",
-          "src/main/resources/assets/chiller_mod/models/block/weed_wood_planks_top.json"
+          "src/main/resources/assets/chiller_mod/models/block/weed_wood_planks_top.json",
+          "src/main/resources/assets/chiller_mod/models/block/weed_wood_planks_full.json",
+          "src/main/resources/assets/chiller_mod/blockstates/weed_wood_planks.json"
         ]
       }
     },
@@ -706,8 +706,8 @@
       "registry_name": "ak_fire_serpent",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/chillermod/item/AkFireSerpentItem.java",
           "src/main/resources/assets/chiller_mod/models/item/ak_fire_serpent.json",
+          "src/main/java/net/mcreator/chillermod/item/AkFireSerpentItem.java",
           "src/main/resources/assets/chiller_mod/models/item/ak_fire_serpent_0.json"
         ]
       }
@@ -752,8 +752,8 @@
       "registry_name": "bloo_berry_vape",
       "metadata": {
         "files": [
-          "src/main/resources/assets/chiller_mod/models/item/bloo_berry_vape.json",
-          "src/main/java/net/mcreator/chillermod/item/BlooBerryVapeItem.java"
+          "src/main/java/net/mcreator/chillermod/item/BlooBerryVapeItem.java",
+          "src/main/resources/assets/chiller_mod/models/item/bloo_berry_vape.json"
         ]
       }
     },
@@ -957,6 +957,19 @@
           "src/main/resources/data/chiller_mod/recipes/bong_recipe.json"
         ]
       }
+    },
+    {
+      "name": "BlooBerryVapeRecipe",
+      "type": "recipe",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloo_berry_vape_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chiller_mod/recipes/bloo_berry_vape_recipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -993,14 +1006,16 @@
       "item.chiller_mod.jakeman_vacation_disk.desc": "Jakeman Vacation (Feat. Saif)",
       "item.chiller_mod.chiller_cow_spawn_egg": "Chiller Cow Spawn Egg",
       "item.minecraft.splash_potion.effect.joint": "Bong Bomb",
+      "item.chiller_mod.bloo_berry_vape": "Bloo Berry Vape",
       "block.chiller_mod.water_bong": "Water Bong",
+      "item.chiller_mod.lighter": "Lighter",
       "item_group.chiller_mod.weed": "Weed",
       "item.chiller_mod.chiller_chicken_spawn_egg": "Chiller Chicken Spawn Egg",
       "item.chiller_mod.black_glass_stick": "Black Glass Stick",
       "block.chiller_mod.weed_wood_log": "Weed Wood Log",
       "item.minecraft.potion.effect.joint": "Bong",
       "gui.chiller_mod.grinder_gui.tooltip_add_marijuana_leaves_to_grind": "Add Marijuana Leaves to grind",
-      "item.chiller_mod.jakeman_vacation_disk": "Jakeman Vacation Disk",
+      "item.chiller_mod.jakeman_vacation_disk": "Jakeman Vacation Disc",
       "block.chiller_mod.weed_wood_plank": "Weed Wood Plank",
       "item.chiller_mod.gun": "Gun",
       "painting.chiller_mod.weed_painting_1.title": "Weed Painting 1",
@@ -1021,7 +1036,7 @@
       "item.chiller_mod.snoop_spawn_egg": "Snoop Spawn Egg",
       "entity.chiller_mod.snoop": "Snoop",
       "block.chiller_mod.weed_bale": "Weed Bale",
-      "item.chiller_mod.grinded_weed": "Grinded Weed",
+      "item.chiller_mod.grinded_weed": "Ground Weed",
       "item.chiller_mod.marijuanleaf": "Marijuana Leaf"
     }
   },
