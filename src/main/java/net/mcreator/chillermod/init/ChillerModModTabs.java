@@ -46,6 +46,7 @@ public class ChillerModModTabs {
 				tabData.accept(ChillerModModItems.AK_FIRE_SERPENT.get());
 				tabData.accept(ChillerModModItems.BLOO_BERRY_VAPE.get());
 				tabData.accept(ChillerModModItems.LIGHTER.get());
+				tabData.accept(ChillerModModItems.CARROT_VAPE.get());
 			}).withSearchBar().build());
 
 	@SubscribeEvent

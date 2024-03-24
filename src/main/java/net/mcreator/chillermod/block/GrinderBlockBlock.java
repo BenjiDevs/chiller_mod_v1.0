@@ -63,6 +63,11 @@ public class GrinderBlockBlock extends Block {
 	}
 
 	@Override
+	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
+		return Shapes.or(box(6, 0, 6, 10, 2, 10), box(6, 2, 6, 10, 3, 10), box(6, 3, 6, 10, 4, 10));
+	}
+
+	@Override
 	public List<ItemStack> getDrops(BlockState state, LootParams.Builder builder) {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())

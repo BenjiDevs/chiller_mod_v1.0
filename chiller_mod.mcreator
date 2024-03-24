@@ -957,6 +957,33 @@
           "src/main/resources/data/chiller_mod/recipes/bong_recipe.json"
         ]
       }
+    },
+    {
+      "name": "CarrotVape",
+      "type": "tool",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "carrot_vape",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chillermod/item/CarrotVapeItem.java",
+          "src/main/resources/assets/chiller_mod/models/item/carrot_vape.json"
+        ]
+      }
+    },
+    {
+      "name": "CarrotVapeRecipe",
+      "type": "recipe",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "carrot_vape_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chiller_mod/recipes/carrot_vape_recipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -993,14 +1020,17 @@
       "item.chiller_mod.jakeman_vacation_disk.desc": "Jakeman Vacation (Feat. Saif)",
       "item.chiller_mod.chiller_cow_spawn_egg": "Chiller Cow Spawn Egg",
       "item.minecraft.splash_potion.effect.joint": "Bong Bomb",
+      "item.chiller_mod.bloo_berry_vape": "Bloo Berry Vape",
       "block.chiller_mod.water_bong": "Water Bong",
+      "item.chiller_mod.lighter": "Lighter",
+      "item.chiller_mod.carrot_vape": "Bloo Berry Vape",
       "item_group.chiller_mod.weed": "Weed",
       "item.chiller_mod.chiller_chicken_spawn_egg": "Chiller Chicken Spawn Egg",
       "item.chiller_mod.black_glass_stick": "Black Glass Stick",
       "block.chiller_mod.weed_wood_log": "Weed Wood Log",
       "item.minecraft.potion.effect.joint": "Bong",
       "gui.chiller_mod.grinder_gui.tooltip_add_marijuana_leaves_to_grind": "Add Marijuana Leaves to grind",
-      "item.chiller_mod.jakeman_vacation_disk": "Jakeman Vacation Disk",
+      "item.chiller_mod.jakeman_vacation_disk": "Jakeman Vacation Disc",
       "block.chiller_mod.weed_wood_plank": "Weed Wood Plank",
       "item.chiller_mod.gun": "Gun",
       "painting.chiller_mod.weed_painting_1.title": "Weed Painting 1",
@@ -1021,7 +1051,7 @@
       "item.chiller_mod.snoop_spawn_egg": "Snoop Spawn Egg",
       "entity.chiller_mod.snoop": "Snoop",
       "block.chiller_mod.weed_bale": "Weed Bale",
-      "item.chiller_mod.grinded_weed": "Grinded Weed",
+      "item.chiller_mod.grinded_weed": "Ground Weed",
       "item.chiller_mod.marijuanleaf": "Marijuana Leaf"
     }
   },

@@ -3,7 +3,7 @@
   "textures": {
     "all": "chiller_mod:block/texture",
     "particle": "chiller_mod:block/texture",
-    "0": "chiller_mod:block/texture",
+    "0": "chiller_mod:block/grinder2",
     "missing": "chiller_mod:block/texture"
   },
   "render_type": "translucent"

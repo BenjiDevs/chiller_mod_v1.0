@@ -24,8 +24,8 @@ import java.util.List;
 import com.google.common.collect.Multimap;
 import com.google.common.collect.ImmutableMultimap;
 
-public class BlooBerryVapeItem extends Item {
-	public BlooBerryVapeItem() {
+public class CarrotVapeItem extends Item {
+	public CarrotVapeItem() {
 		super(new Item.Properties().durability(100));
 	}
 
