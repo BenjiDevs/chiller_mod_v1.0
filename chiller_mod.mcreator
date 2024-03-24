@@ -1000,19 +1000,6 @@
       }
     },
     {
-      "name": "WeedGreatAxeRecipe",
-      "type": "recipe",
-      "sortid": 53,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "weed_great_axe_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/chiller_mod/recipes/weed_great_axe_recipe.json"
-        ]
-      }
-    },
-    {
       "name": "ChiefStart",
       "type": "achievement",
       "sortid": 54,
@@ -1054,6 +1041,32 @@
             "name": "entity",
             "type": "entity"
           }
+        ]
+      }
+    },
+    {
+      "name": "WeedGreatAxeRecipe",
+      "type": "recipe",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weed_great_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chiller_mod/recipes/weed_great_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BlooBerryVapeRecipe",
+      "type": "recipe",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloo_berry_vape_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chiller_mod/recipes/bloo_berry_vape_recipe.json"
         ]
       }
     }

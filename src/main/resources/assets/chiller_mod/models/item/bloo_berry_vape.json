@@ -1,7 +1,7 @@
 {
   "parent": "chiller_mod:custom/blueberryvape",
   "textures": {
-    "0": "chiller_mod:block/blooberrytexture",
+    "0": "chiller_mod:block/",
     "particle": "chiller_mod:item/blooberrytexture"
   }
 }
