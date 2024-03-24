@@ -865,6 +865,45 @@
           "src/main/java/net/mcreator/chillermod/item/LighterItem.java"
         ]
       }
+    },
+    {
+      "name": "LighterRightclickedOnBongWitWeed",
+      "type": "procedure",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lighter_rightclicked_on_bong_wit_weed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chillermod/procedures/LighterRightclickedOnBongWitWeedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
