@@ -917,6 +917,19 @@
           "src/main/resources/data/chiller_mod/recipes/bong_recipe.json"
         ]
       }
+    },
+    {
+      "name": "LighterRecipe",
+      "type": "recipe",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lighter_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chiller_mod/recipes/lighter_recipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
