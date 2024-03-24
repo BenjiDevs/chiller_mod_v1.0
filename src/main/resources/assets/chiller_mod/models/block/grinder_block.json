@@ -1,9 +1,9 @@
 {
-  "parent": "chiller_mod:custom/grinder_(1)",
+  "parent": "chiller_mod:custom/grindertwo",
   "textures": {
-    "all": "chiller_mod:block/grinder2",
-    "particle": "chiller_mod:block/grinder2",
-    "0": "chiller_mod:block/grinder2"
+    "all": "chiller_mod:block/grindertwotexture",
+    "particle": "chiller_mod:block/grindertwotexture",
+    "0": "chiller_mod:block/grindertwotexture"
   },
   "render_type": "translucent"
 }

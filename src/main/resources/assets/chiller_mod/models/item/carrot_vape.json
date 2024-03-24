@@ -1,0 +1,7 @@
+{
+  "parent": "chiller_mod:custom/carrot",
+  "textures": {
+    "0": "chiller_mod:block/carrottexture",
+    "particle": "chiller_mod:item/carrottexture"
+  }
+}
