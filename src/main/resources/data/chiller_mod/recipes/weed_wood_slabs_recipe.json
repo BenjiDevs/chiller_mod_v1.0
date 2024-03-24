@@ -3,17 +3,17 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "chiller_mod:deleted_mod_element"
+      "item": "chiller_mod:weed_wood_plank"
     },
     {
-      "item": "chiller_mod:deleted_mod_element"
+      "item": "chiller_mod:weed_wood_plank"
     },
     {
-      "item": "chiller_mod:deleted_mod_element"
+      "item": "chiller_mod:weed_wood_plank"
     }
   ],
   "result": {
-    "item": "chiller_mod:deleted_mod_element",
+    "item": "chiller_mod:weed_wood_planks",
     "count": 6
   }
 }
