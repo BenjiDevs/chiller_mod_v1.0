@@ -1069,6 +1069,20 @@
           "src/main/resources/data/chiller_mod/recipes/bloo_berry_vape_recipe.json"
         ]
       }
+    },
+    {
+      "name": "Filter",
+      "type": "item",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "filter",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chiller_mod/models/item/filter.json",
+          "src/main/java/net/mcreator/chillermod/item/FilterItem.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -1096,8 +1110,8 @@
       "item.chiller_mod.vapetest": "Red Apple Flavored Vape",
       "item.chiller_mod.grinder_spike": "Grinder Spike",
       "entity.chiller_mod.chiller_cow": "Chiller Cow",
-      "block.chiller_mod.weed_wood_leaves": "Weed Wood Leaves",
       "subtitles.jakeman_vacation": "",
+      "block.chiller_mod.weed_wood_leaves": "Weed Wood Leaves",
       "item.minecraft.splash_potion.effect.joint": "Bong Bomb",
       "item.chiller_mod.bloo_berry_vape": "Bloo Berry Vape",
       "item_group.chiller_mod.weed": "Weed",
@@ -1134,6 +1148,7 @@
       "item.minecraft.tipped_arrow.effect.joint": "High Arrow",
       "painting.chiller_mod.weed_painting_1.author": "jakeman",
       "block.chiller_mod.grinder_block": "Grinder Block",
+      "item.chiller_mod.filter": "Filter",
       "advancements.first_high.descr": "Get your first high by consuming the zaa",
       "block.chiller_mod.threedgrinder": "Threedgrinder",
       "entity.chiller_mod.chiller_chicken": "Chiller Chicken",

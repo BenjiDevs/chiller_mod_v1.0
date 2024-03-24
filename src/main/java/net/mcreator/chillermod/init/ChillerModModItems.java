@@ -23,6 +23,7 @@ import net.mcreator.chillermod.item.JakemanVacationDiskItem;
 import net.mcreator.chillermod.item.GunItem;
 import net.mcreator.chillermod.item.GrinderSpikeItem;
 import net.mcreator.chillermod.item.GrindedWeedItem;
+import net.mcreator.chillermod.item.FilterItem;
 import net.mcreator.chillermod.item.CarrotVapeItem;
 import net.mcreator.chillermod.item.BlooBerryVapeItem;
 import net.mcreator.chillermod.item.BlackGlassStickItem;
@@ -59,6 +60,7 @@ public class ChillerModModItems {
 	public static final RegistryObject<Item> LIGHTER = REGISTRY.register("lighter", () -> new LighterItem());
 	public static final RegistryObject<Item> CARROT_VAPE = REGISTRY.register("carrot_vape", () -> new CarrotVapeItem());
 	public static final RegistryObject<Item> WEED_GREAT_AXE = REGISTRY.register("weed_great_axe", () -> new WeedGreatAxeItem());
+	public static final RegistryObject<Item> FILTER = REGISTRY.register("filter", () -> new FilterItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
