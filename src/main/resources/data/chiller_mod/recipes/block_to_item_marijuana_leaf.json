@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "chiller_mod:marijuanleaf"
+    },
+    {
+      "item": "chiller_mod:marijuanleaf"
+    },
+    {
+      "item": "chiller_mod:marijuanleaf"
+    },
+    {
+      "item": "chiller_mod:marijuanleaf"
+    },
+    {
+      "item": "chiller_mod:marijuanleaf"
+    },
+    {
+      "item": "chiller_mod:marijuanleaf"
+    },
+    {
+      "item": "chiller_mod:marijuanleaf"
+    },
+    {
+      "item": "chiller_mod:marijuanleaf"
+    },
+    {
+      "item": "chiller_mod:marijuanleaf"
+    }
+  ],
+  "result": {
+    "item": "chiller_mod:weed_bale",
+    "count": 1
+  }
+}

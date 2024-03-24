@@ -930,6 +930,19 @@
           "src/main/resources/data/chiller_mod/recipes/lighter_recipe.json"
         ]
       }
+    },
+    {
+      "name": "BlockToItemMarijuanaLeaf",
+      "type": "recipe",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_to_item_marijuana_leaf",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chiller_mod/recipes/block_to_item_marijuana_leaf.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
