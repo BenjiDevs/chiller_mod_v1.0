@@ -904,6 +904,19 @@
           }
         ]
       }
+    },
+    {
+      "name": "BongRecipe",
+      "type": "recipe",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bong_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chiller_mod/recipes/bong_recipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
