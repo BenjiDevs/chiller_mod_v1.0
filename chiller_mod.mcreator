@@ -812,6 +812,59 @@
           }
         ]
       }
+    },
+    {
+      "name": "WaterBongWitGrassOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "water_bong_wit_grass_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chillermod/procedures/WaterBongWitGrassOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Lighter",
+      "type": "item",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lighter",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chiller_mod/models/item/lighter.json",
+          "src/main/java/net/mcreator/chillermod/item/LighterItem.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -849,6 +902,7 @@
       "item.chiller_mod.chiller_cow_spawn_egg": "Chiller Cow Spawn Egg",
       "item.minecraft.splash_potion.effect.joint": "Bong Bomb",
       "block.chiller_mod.water_bong": "Water Bong",
+      "item.chiller_mod.lighter": "Lighter",
       "item_group.chiller_mod.weed": "Weed",
       "item.chiller_mod.chiller_chicken_spawn_egg": "Chiller Chicken Spawn Egg",
       "item.chiller_mod.black_glass_stick": "Black Glass Stick",

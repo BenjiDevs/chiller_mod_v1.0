@@ -44,6 +44,7 @@ public class ChillerModModTabs {
 				tabData.accept(ChillerModModBlocks.WEED_WOOD_PLANKS.get().asItem());
 				tabData.accept(ChillerModModItems.GUN.get());
 				tabData.accept(ChillerModModItems.AK_FIRE_SERPENT.get());
+				tabData.accept(ChillerModModItems.LIGHTER.get());
 			}).withSearchBar().build());
 
 	@SubscribeEvent
