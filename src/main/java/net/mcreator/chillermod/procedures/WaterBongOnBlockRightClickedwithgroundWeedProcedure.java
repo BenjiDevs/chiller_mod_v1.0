@@ -37,11 +37,11 @@ public class WaterBongOnBlockRightClickedwithgroundWeedProcedure {
 		if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == ChillerModModItems.GRINDED_WEED.get()) {
 			if ((world.getBlockState(BlockPos.containing(x, y, z))).getBlock() == ChillerModModBlocks.WATER_BONG.get()) {
 				ChillerModMod.queueServerWork(20, () -> {
-					world.setBlock(BlockPos.containing(x, y, z), ChillerModModBlocks.WATER_BONG_WIT_GRASS.get().defaultBlockState(), 3);
 					if (entity instanceof Player _player) {
 						ItemStack _stktoremove = new ItemStack(ChillerModModItems.GRINDED_WEED.get());
 						_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
 					}
+					world.setBlock(BlockPos.containing(x, y, z), ChillerModModBlocks.WATER_BONG_WIT_GRASS.get().defaultBlockState(), 3);
 				});
 			}
 		}
