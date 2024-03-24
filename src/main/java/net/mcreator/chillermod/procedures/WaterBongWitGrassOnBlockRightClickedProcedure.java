@@ -1,10 +1,5 @@
 package net.mcreator.chillermod.procedures;
 
-import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.eventbus.api.Event;
-import net.minecraftforge.event.entity.living.LivingEntityUseItemEvent;
-
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.LivingEntity;
@@ -24,22 +19,8 @@ import net.mcreator.chillermod.init.ChillerModModItems;
 import net.mcreator.chillermod.init.ChillerModModBlocks;
 import net.mcreator.chillermod.ChillerModMod;
 
-import javax.annotation.Nullable;
-
-@Mod.EventBusSubscriber
 public class WaterBongWitGrassOnBlockRightClickedProcedure {
-	@SubscribeEvent
-	public static void onUseItemStart(LivingEntityUseItemEvent.Start event) {
-		if (event != null && event.getEntity() != null) {
-			execute(event, event.getEntity().level(), event.getEntity().getX(), event.getEntity().getY(), event.getEntity().getZ(), event.getEntity(), event.getItem());
-		}
-	}
-
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity, ItemStack itemstack) {
-		execute(null, world, x, y, z, entity, itemstack);
-	}
-
-	private static void execute(@Nullable Event event, LevelAccessor world, double x, double y, double z, Entity entity, ItemStack itemstack) {
 		if (entity == null)
 			return;
 		if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == ChillerModModItems.LIGHTER.get()) {
